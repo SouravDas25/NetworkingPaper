@@ -1,0 +1,931 @@
+starting uploading thread
+starting acknowledging thread
+Sent data 1
+Sent data 2
+Sent data 3
+Sent data 4
+Sent data 5
+Sent data 6
+Sent data 7
+Received positive ack for 1
+Received positive ack for 2
+Received positive ack for 3
+Received positive ack for 4
+Received positive ack for 5
+Received positive ack for 6
+Received positive ack for 7
+Sent data 8
+Received positive ack for 8
+Sent data 9
+Sent data 10
+Sent data 11
+Sent data 12
+Sent data 13
+Received positive ack for 9
+Sent data 14
+Sent data 15
+Sent data 16
+Received positive ack for 10
+Sent data 17
+Received positive ack for 11
+Received positive ack for 12
+Received positive ack for 13
+Received positive ack for 14
+Received positive ack for 15
+Received positive ack for 16
+Received positive ack for 17
+Sent data 18
+Sent data 19
+Sent data 20
+Sent data 21
+Received positive ack for 18
+Received positive ack for 19
+Received positive ack for 20
+Received positive ack for 21
+Sent data 22
+Sent data 23
+Received positive ack for 22
+Sent data 24
+Received positive ack for 23
+Sent data 25
+Sent data 26
+Received positive ack for 24
+Sent data 27
+Sent data 28
+Received positive ack for 25
+Sent data 29
+Received positive ack for 26
+Sent data 30
+Received positive ack for 27
+Sent data 31
+Received positive ack for 28
+Sent data 32
+Received positive ack for 29
+Sent data 33
+Received positive ack for 30
+Received positive ack for 31
+Sent data 34
+Sent data 35
+Sent data 36
+Sent data 37
+Received positive ack for 32
+Sent data 38
+Received positive ack for 33
+Sent data 39
+Received positive ack for 34
+Received positive ack for 35
+Received positive ack for 36
+Sent data 40
+Received positive ack for 37
+Sent data 41
+Received positive ack for 38
+Sent data 42
+Received positive ack for 39
+Sent data 43
+Received positive ack for 40
+Received positive ack for 41
+Sent data 44
+Received positive ack for 42
+Sent data 45
+Sent data 46
+Received positive ack for 43
+Sent data 47
+Sent data 48
+Received positive ack for 44
+Sent data 49
+Received positive ack for 45
+Received positive ack for 46
+Received positive ack for 47
+Sent data 50
+Sent data 51
+Received positive ack for 48
+Received positive ack for 49
+Sent data 52
+Received positive ack for 50
+Sent data 53
+Received positive ack for 51
+Sent data 54
+Received positive ack for 52
+Sent data 55
+Sent data 56
+Received positive ack for 53
+Sent data 57
+Received positive ack for 54
+Sent data 58
+Sent data 59
+Received positive ack for 55
+Received positive ack for 56
+Sent data 60
+Sent data 61
+Sent data 62
+Received positive ack for 57
+Sent data 63
+Received positive ack for 58
+Sent data 64
+Received positive ack for 59
+Sent data 65
+Received positive ack for 60
+Sent data 66
+Received positive ack for 61
+Sent data 67
+Received positive ack for 63
+Sent data 68
+Received positive ack for 64
+Sent data 69
+Received positive ack for 65
+Sent data 70
+Received positive ack for 66
+Sent data 71
+Received positive ack for 67
+Sent data 72
+Received positive ack for 68
+Sent data 73
+Received positive ack for 69
+Received positive ack for 70
+Sent data 74
+Received positive ack for 71
+Sent data 75
+Received positive ack for 72
+Sent data 76
+Received positive ack for 73
+Sent data 77
+Received positive ack for 74
+Sent data 78
+Received positive ack for 75
+Sent data 79
+Received positive ack for 76
+Sent data 80
+Received positive ack for 77
+Sent data 81
+Received positive ack for 78
+Received positive ack for 79
+Sent data 82
+Received positive ack for 80
+Sent data 83
+Sent data 84
+Received positive ack for 81
+Received positive ack for 82
+Sent data 85
+Received positive ack for 83
+Sent data 86
+Received positive ack for 84
+Received positive ack for 85
+Sent data 87
+Received positive ack for 86
+Sent data 88
+Received positive ack for 87
+Sent data 89
+Received positive ack for 88
+Sent data 90
+Received positive ack for 89
+Received positive ack for 90
+Sent data 91
+Sent data 92
+Sent data 93
+Received positive ack for 91
+Sent data 94
+Received positive ack for 92
+Sent data 95
+Received positive ack for 93
+Sent data 96
+Received positive ack for 94
+Sent data 97
+Received positive ack for 95
+Sent data 98
+Received positive ack for 96
+Received positive ack for 97
+Sent data 99
+Received positive ack for 98
+Sent data 100
+Received positive ack for 99
+Sent data 101
+Received positive ack for 100
+Sent data 102
+Received positive ack for 101
+Sent data 103
+Received positive ack for 102
+Sent data 104
+Received positive ack for 103
+Sent data 105
+Received positive ack for 104
+Sent data 106
+Received positive ack for 105
+Received positive ack for 106
+Sent data 107
+Sent data 108
+Received positive ack for 107
+Received positive ack for 108
+Sent data 109
+Sent data 110
+Received positive ack for 109
+Sent data 111
+Sent data 112
+Sent data 113
+Received positive ack for 110
+Received positive ack for 111
+Sent data 114
+Received positive ack for 112
+Received positive ack for 113
+Received positive ack for 114
+Sent data 115
+Sent data 116
+Received positive ack for 115
+Sent data 117
+Received positive ack for 116
+Sent data 118
+Sent data 119
+Received positive ack for 117
+Received positive ack for 118
+Sent data 120
+Sent data 121
+Received positive ack for 119
+Sent data 122
+Received positive ack for 120
+Sent data 123
+Sent data 124
+Received positive ack for 121
+Sent data 125
+Sent data 126
+Received positive ack for 122
+Received positive ack for 123
+Sent data 127
+Received positive ack for 124
+Sent data 128
+Received positive ack for 125
+Sent data 129
+Received positive ack for 126
+Received positive ack for 127
+Sent data 130
+Received positive ack for 128
+Sent data 131
+Received positive ack for 129
+Received positive ack for 130
+Sent data 132
+Received positive ack for 131
+Sent data 133
+Received positive ack for 132
+Sent data 134
+Received positive ack for 133
+Sent data 135
+Received positive ack for 134
+Sent data 136
+Received positive ack for 135
+Sent data 137
+Received positive ack for 136
+Sent data 138
+Received positive ack for 137
+Sent data 139
+Received positive ack for 138
+Sent data 140
+Received positive ack for 139
+Sent data 141
+Received positive ack for 140
+Sent data 142
+Received positive ack for 141
+Sent data 143
+Received positive ack for 142
+Sent data 144
+Received positive ack for 143
+Sent data 145
+Received positive ack for 144
+Sent data 146
+Received positive ack for 145
+Sent data 147
+Received positive ack for 146
+Sent data 148
+Received positive ack for 147
+Sent data 149
+Received positive ack for 148
+Sent data 150
+Received positive ack for 149
+Sent data 151
+Received positive ack for 150
+Sent data 152
+Received positive ack for 151
+Sent data 153
+Received positive ack for 152
+Sent data 154
+Received positive ack for 153
+Sent data 155
+Received positive ack for 154
+Received positive ack for 155
+Sent data 156
+Sent data 157
+Sent data 158
+Received positive ack for 156
+Received positive ack for 157
+Sent data 159
+Received positive ack for 158
+Sent data 160
+Received positive ack for 159
+Sent data 161
+Received positive ack for 160
+Sent data 162
+Received positive ack for 161
+Sent data 163
+Received positive ack for 162
+Sent data 164
+Received positive ack for 163
+Sent data 165
+Received positive ack for 164
+Sent data 166
+Received positive ack for 165
+Sent data 167
+Received positive ack for 166
+Sent data 168
+Received positive ack for 167
+Sent data 169
+Received positive ack for 168
+Sent data 170
+Received positive ack for 169
+Sent data 171
+Sent data 172
+Received positive ack for 170
+Sent data 173
+Received positive ack for 171
+Sent data 174
+Received positive ack for 173
+Sent data 175
+Received positive ack for 174
+Sent data 176
+Received positive ack for 175
+Sent data 177
+Received positive ack for 176
+Sent data 178
+Received positive ack for 177
+Sent data 179
+Received positive ack for 178
+Sent data 180
+Received positive ack for 179
+Received positive ack for 180
+Sent data 181
+Sent data 182
+Received positive ack for 181
+Sent data 183
+Sent data 184
+Received positive ack for 182
+Sent data 185
+Received positive ack for 183
+Sent data 186
+Received positive ack for 184
+Sent data 187
+Received positive ack for 185
+Sent data 188
+Received positive ack for 186
+Received positive ack for 187
+Sent data 189
+Received positive ack for 188
+Sent data 190
+Received positive ack for 189
+Sent data 191
+Received positive ack for 190
+Sent data 192
+Received positive ack for 191
+Sent data 193
+Received positive ack for 192
+Sent data 194
+Received positive ack for 193
+Sent data 195
+Received positive ack for 194
+Sent data 196
+Received positive ack for 195
+Received positive ack for 196
+Sent data 197
+Sent data 198
+Sent data 199
+Received positive ack for 197
+Received positive ack for 198
+Sent data 200
+Received positive ack for 199
+Sent data 201
+Received positive ack for 200
+Sent data 202
+Received positive ack for 201
+Sent data 203
+Received positive ack for 202
+Sent data 204
+Received positive ack for 203
+Received positive ack for 204
+Sent data 205
+Sent data 206
+Received positive ack for 205
+Sent data 207
+Received positive ack for 206
+Sent data 208
+Received positive ack for 207
+Sent data 209
+Received positive ack for 208
+Sent data 210
+Received positive ack for 209
+Sent data 211
+Received positive ack for 210
+Sent data 212
+Received positive ack for 211
+Sent data 213
+Sent data 214
+Received positive ack for 212
+Sent data 215
+Received positive ack for 213
+Sent data 216
+Received positive ack for 215
+Sent data 217
+Received positive ack for 216
+Sent data 218
+Received positive ack for 217
+Sent data 219
+Received positive ack for 218
+Sent data 220
+Received positive ack for 219
+Sent data 221
+Received positive ack for 220
+Sent data 222
+Received positive ack for 221
+Sent data 223
+Received positive ack for 222
+Sent data 224
+Received positive ack for 223
+Sent data 225
+Received positive ack for 224
+Sent data 226
+Received positive ack for 225
+Sent data 227
+Received positive ack for 226
+Sent data 228
+Received positive ack for 227
+Sent data 229
+Received positive ack for 228
+Received positive ack for 229
+Sent data 230
+Sent data 231
+Sent data 232
+Received positive ack for 230
+Received positive ack for 231
+Sent data 233
+Received positive ack for 232
+Sent data 234
+Received positive ack for 233
+Sent data 235
+Received positive ack for 234
+Sent data 236
+Received positive ack for 235
+Sent data 237
+Received positive ack for 236
+Received positive ack for 237
+Sent data 238
+Sent data 239
+Sent data 240
+Received positive ack for 238
+Received positive ack for 239
+Sent data 241
+Received positive ack for 240
+Sent data 242
+Received positive ack for 241
+Sent data 243
+Received positive ack for 242
+Sent data 244
+Received positive ack for 243
+Sent data 245
+Received positive ack for 244
+Sent data 246
+Received positive ack for 245
+Sent data 247
+Received positive ack for 246
+Sent data 248
+Received positive ack for 247
+Sent data 249
+Received positive ack for 248
+Sent data 250
+Received positive ack for 249
+Sent data 251
+Received positive ack for 250
+Sent data 252
+Received positive ack for 251
+Sent data 253
+Received positive ack for 252
+Received positive ack for 253
+Sent data 254
+Sent data 255
+Sent data 256
+Received positive ack for 254
+Received positive ack for 255
+Sent data 257
+Received positive ack for 256
+Sent data 258
+Received positive ack for 257
+Sent data 259
+Received positive ack for 258
+Sent data 260
+Received positive ack for 259
+Sent data 261
+Received positive ack for 260
+Sent data 262
+Received positive ack for 261
+Sent data 263
+Received positive ack for 262
+Sent data 264
+Received positive ack for 263
+Sent data 265
+Received positive ack for 264
+Sent data 266
+Received positive ack for 265
+Sent data 267
+Received positive ack for 266
+Sent data 268
+Received positive ack for 267
+Sent data 269
+Sent data 270
+Received positive ack for 268
+Sent data 271
+Received positive ack for 269
+Sent data 272
+Received positive ack for 270
+Sent data 273
+Received positive ack for 271
+Sent data 274
+Received positive ack for 272
+Sent data 275
+Received positive ack for 273
+Sent data 276
+Received positive ack for 274
+Sent data 277
+Received positive ack for 275
+Sent data 278
+Received positive ack for 276
+Received positive ack for 277
+Sent data 279
+Received positive ack for 278
+Sent data 280
+Received positive ack for 279
+Sent data 281
+Received positive ack for 280
+Sent data 282
+Received positive ack for 281
+Sent data 283
+Received positive ack for 282
+Sent data 284
+Received positive ack for 283
+Sent data 285
+Received positive ack for 284
+Sent data 286
+Sent data 287
+Received positive ack for 285
+Sent data 288
+Received positive ack for 286
+Sent data 289
+Received positive ack for 287
+Sent data 290
+Received positive ack for 288
+Sent data 291
+Received positive ack for 289
+Sent data 292
+Received positive ack for 290
+Sent data 293
+Received positive ack for 291
+Sent data 294
+Received positive ack for 292
+Received positive ack for 293
+Sent data 295
+Received positive ack for 294
+Sent data 296
+Received positive ack for 295
+Sent data 297
+Received positive ack for 296
+Sent data 298
+Received positive ack for 297
+Sent data 299
+Received positive ack for 298
+Sent data 300
+Received positive ack for 299
+Sent data 301
+Received positive ack for 300
+Sent data 302
+Received positive ack for 301
+Sent data 303
+Received positive ack for 302
+Received positive ack for 303
+Sent data 304
+Sent data 305
+Sent data 306
+Received positive ack for 304
+Sent data 307
+Received positive ack for 305
+Sent data 308
+Received positive ack for 306
+Received positive ack for 307
+Sent data 309
+Received positive ack for 308
+Sent data 310
+Received positive ack for 309
+Sent data 311
+Received positive ack for 310
+Received positive ack for 311
+Sent data 312
+Sent data 313
+Received positive ack for 312
+Sent data 314
+Received positive ack for 313
+Sent data 315
+Received positive ack for 314
+Sent data 316
+Received positive ack for 315
+Sent data 317
+Received positive ack for 316
+Sent data 318
+Received positive ack for 317
+Sent data 319
+Received positive ack for 318
+Sent data 320
+Received positive ack for 319
+Sent data 321
+Received positive ack for 320
+Sent data 322
+Received positive ack for 321
+Sent data 323
+Received positive ack for 322
+Sent data 324
+Received positive ack for 323
+Sent data 325
+Received positive ack for 324
+Sent data 326
+Received positive ack for 325
+Sent data 327
+Received positive ack for 326
+Received positive ack for 327
+Sent data 328
+Sent data 329
+Sent data 330
+Received positive ack for 328
+Sent data 331
+Received positive ack for 329
+Sent data 332
+Received positive ack for 330
+Sent data 333
+Received positive ack for 331
+Sent data 334
+Received positive ack for 332
+Sent data 335
+Received positive ack for 333
+Received positive ack for 334
+Sent data 336
+Received positive ack for 335
+Sent data 337
+Received positive ack for 336
+Sent data 338
+Received positive ack for 337
+Sent data 339
+Received positive ack for 338
+Sent data 340
+Received positive ack for 339
+Sent data 341
+Sent data 342
+Received positive ack for 340
+Sent data 343
+Received positive ack for 341
+Sent data 344
+Received positive ack for 343
+Received positive ack for 344
+Sent data 345
+Sent data 346
+Received positive ack for 345
+Sent data 347
+Sent data 348
+Received positive ack for 346
+Received positive ack for 347
+Received positive ack for 348
+Sent data 349
+Sent data 350
+Sent data 351
+Received positive ack for 349
+Received positive ack for 350
+Received positive ack for 351
+Sent data 352
+Sent data 353
+Sent data 354
+Received positive ack for 352
+Received positive ack for 354
+Sent data 355
+Sent data 356
+Received positive ack for 355
+Received positive ack for 356
+Sent data 357
+Sent data 358
+Received positive ack for 357
+Received positive ack for 358
+Sent data 359
+Sent data 360
+Received positive ack for 359
+Received positive ack for 360
+Sent data 361
+Sent data 362
+Received positive ack for 361
+Received positive ack for 362
+Sent data 363
+Sent data 364
+Received positive ack for 363
+Received positive ack for 364
+Sent data 365
+Sent data 366
+Received positive ack for 365
+Received positive ack for 366
+Sent data 367
+Sent data 368
+Received positive ack for 367
+Received positive ack for 368
+Sent data 369
+Sent data 370
+Received positive ack for 369
+Received positive ack for 370
+Sent data 371
+Sent data 372
+Received positive ack for 371
+Received positive ack for 372
+Sent data 373
+Sent data 374
+Received positive ack for 373
+Received positive ack for 374
+Sent data 375
+Sent data 376
+Received positive ack for 375
+Received positive ack for 376
+Sent data 377
+Sent data 378
+Received positive ack for 377
+Received positive ack for 378
+Sent data 379
+Sent data 380
+Received positive ack for 379
+Received positive ack for 380
+Sent data 381
+Sent data 382
+Received positive ack for 381
+Received positive ack for 382
+Sent data 383
+Sent data 384
+Received positive ack for 383
+Received positive ack for 384
+Sent data 385
+Sent data 386
+Received positive ack for 385
+Received positive ack for 386
+Sent data 387
+Sent data 388
+Received positive ack for 387
+Received positive ack for 388
+window retransmitted
+Sent data 389
+Sent data 390
+Received positive ack for 62
+Received positive ack for 172
+Received positive ack for 214
+Received positive ack for 342
+Sent data 391
+Received positive ack for 353
+Sent data 392
+Sent data 393
+Sent data 394
+Sent data 395
+Received positive ack for 389
+Received positive ack for 390
+Received positive ack for 391
+Received positive ack for 392
+Received positive ack for 393
+Received positive ack for 394
+Received positive ack for 395
+Sent data 396
+Sent data 397
+Sent data 398
+Sent data 399
+Sent data 400
+Sent data 401
+Received positive ack for 396
+Received positive ack for 397
+Sent data 402
+Sent data 403
+Received positive ack for 398
+Received positive ack for 399
+Received positive ack for 400
+Received positive ack for 401
+Received positive ack for 402
+Sent data 404
+Sent data 405
+Received positive ack for 403
+Received positive ack for 404
+Sent data 406
+Received positive ack for 405
+Sent data 407
+Received positive ack for 406
+Received positive ack for 407
+Sent data 408
+Sent data 409
+Sent data 410
+Sent data 411
+Received positive ack for 408
+Received positive ack for 409
+Sent data 412
+Sent data 413
+Sent data 414
+Received positive ack for 410
+Sent data 415
+Sent data 416
+Sent data 417
+Received positive ack for 411
+Received positive ack for 412
+Received positive ack for 413
+Received positive ack for 414
+Received positive ack for 415
+Received positive ack for 416
+Received positive ack for 417
+Sent data 418
+Sent data 419
+Sent data 420
+Sent data 421
+Sent data 422
+Sent data 423
+Received positive ack for 418
+Received positive ack for 419
+Sent data 424
+Sent data 425
+Received positive ack for 420
+Received positive ack for 421
+Received positive ack for 422
+Sent data 426
+Received positive ack for 423
+Received positive ack for 424
+Received positive ack for 425
+Received positive ack for 426
+Sent data 427
+Sent data 428
+Sent data 429
+Sent data 430
+Sent data 431
+Received positive ack for 427
+Sent data 432
+Sent data 433
+Sent data 434
+Received positive ack for 428
+Received positive ack for 429
+Sent data 435
+Sent data 436
+Received positive ack for 430
+Received positive ack for 431
+Received positive ack for 432
+Received positive ack for 433
+Received positive ack for 434
+Received positive ack for 435
+Received positive ack for 436
+Sent data 437
+Sent data 438
+Sent data 439
+Sent data 440
+Received positive ack for 437
+Received positive ack for 438
+Sent data 441
+Received positive ack for 439
+Sent data 442
+Received positive ack for 440
+Received positive ack for 441
+Sent data 443
+Received positive ack for 442
+Sent data 444
+Received positive ack for 443
+Sent data 445
+Received positive ack for 444
+Sent data 446
+Received positive ack for 445
+Sent data 447
+Received positive ack for 446
+Sent data 448
+Received positive ack for 447
+Sent data 449
+Received positive ack for 448
+Sent data 450
+Received positive ack for 449
+Received positive ack for 450
+Sent data 451
+Sent data 452
+Received positive ack for 451
+Sent data 453
+Sent data 454
+Received positive ack for 452
+Received positive ack for 453
+Sent data 455
+Received positive ack for 454
+Sent data 456
+Received positive ack for 455
+Sent data 457
+Received positive ack for 456
+Sent data 458
+Received positive ack for 457
+Sent data 459
+Received positive ack for 458
+Sent data 460
+Received positive ack for 459
+Sent data 461
+Received positive ack for 460
+Sent data 462
+Received positive ack for 461
+finishing uploading thread
+Received positive ack for 462
+finishing acknowledging thread
+connection closed
+Re transmission count 5

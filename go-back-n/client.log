@@ -1,0 +1,1071 @@
+starting uploading thread
+starting acknowledging thread
+Sent data 1
+Sent data 2
+Sent data 3
+Sent data 4
+Sent data 5
+Sent data 6
+Sent data 7
+Received ack for 1
+Received ack for 2
+Received ack for 3
+Received ack for 4
+Sent data 8
+Received ack for 5
+Sent data 9
+Sent data 10
+Received ack for 6
+Sent data 11
+Received ack for 7
+Sent data 12
+Received ack for 8
+Sent data 13
+Received ack for 9
+Sent data 14
+Received ack for 10
+Received ack for 11
+Sent data 15
+Received ack for 12
+Received ack for 13
+Received ack for 14
+Sent data 16
+Received ack for 15
+Sent data 17
+Received ack for 16
+Sent data 18
+Received ack for 17
+Received ack for 18
+Sent data 19
+Received ack for 19
+Sent data 20
+Sent data 21
+Received ack for 20
+Sent data 22
+Received ack for 21
+Sent data 23
+Sent data 24
+Received ack for 22
+Received ack for 23
+Sent data 25
+Sent data 26
+Received ack for 24
+Sent data 27
+Received ack for 25
+Sent data 28
+Sent data 29
+Sent data 30
+Received ack for 26
+Received ack for 27
+Sent data 31
+Received ack for 28
+Sent data 32
+Received ack for 29
+Received ack for 30
+Sent data 33
+Received ack for 31
+Sent data 34
+Received ack for 32
+Sent data 35
+Received ack for 33
+Received ack for 34
+Sent data 36
+Received ack for 35
+Sent data 37
+Received ack for 36
+Sent data 38
+Received ack for 37
+Sent data 39
+Received ack for 38
+Sent data 40
+Received ack for 39
+Sent data 41
+Sent data 42
+Received ack for 40
+Sent data 43
+Received ack for 41
+Sent data 44
+Received out off order ack for 41
+Sent data 45
+Received out off order ack for 41
+Sent data 46
+Received out off order ack for 41
+Sent data 47
+Received out off order ack for 41
+Sent data 48
+Received out off order ack for 41
+Received out off order ack for 41
+Re-Sent data 42
+Re-Sent data 43
+Re-Sent data 44
+Re-Sent data 45
+Re-Sent data 46
+Re-Sent data 47
+Re-Sent data 48
+Received ack for 42
+Received ack for 43
+Sent data 49
+Sent data 50
+Received ack for 44
+Received ack for 45
+Sent data 51
+Sent data 52
+Received ack for 46
+Received ack for 47
+Received ack for 48
+Received ack for 49
+Received ack for 50
+Received ack for 51
+Sent data 53
+Sent data 54
+Sent data 55
+Sent data 56
+Sent data 57
+Received ack for 52
+Received ack for 53
+Sent data 58
+Received ack for 54
+Received ack for 55
+Sent data 59
+Sent data 60
+Sent data 61
+Received ack for 56
+Sent data 62
+Received ack for 57
+Sent data 63
+Received ack for 58
+Received ack for 59
+Received ack for 60
+Received ack for 61
+Received ack for 62
+Received ack for 63
+Sent data 64
+Sent data 65
+Sent data 66
+Sent data 67
+Sent data 68
+Sent data 69
+Sent data 70
+Received ack for 64
+Received ack for 65
+Sent data 71
+Sent data 72
+Received ack for 66
+Received ack for 67
+Received ack for 68
+Received ack for 69
+Received ack for 70
+Received ack for 71
+Received ack for 72
+Sent data 73
+Sent data 74
+Sent data 75
+Sent data 76
+Sent data 77
+Received ack for 73
+Received ack for 74
+Sent data 78
+Received ack for 75
+Received ack for 76
+Sent data 79
+Received ack for 77
+Received ack for 78
+Sent data 80
+Received ack for 79
+Received ack for 80
+Sent data 81
+Sent data 82
+Received ack for 81
+Sent data 83
+Sent data 84
+Sent data 85
+Sent data 86
+Received ack for 82
+Received ack for 83
+Sent data 87
+Received ack for 84
+Sent data 88
+Received ack for 85
+Received ack for 86
+Received ack for 87
+Received ack for 88
+Sent data 89
+Sent data 90
+Received ack for 89
+Sent data 91
+Sent data 92
+Sent data 93
+Received ack for 90
+Sent data 94
+Sent data 95
+Sent data 96
+Sent data 97
+Received ack for 91
+Received ack for 92
+Received ack for 93
+Received ack for 94
+Sent data 98
+Sent data 99
+Received ack for 95
+Received ack for 96
+Sent data 100
+Received ack for 97
+Sent data 101
+Received ack for 98
+Received ack for 99
+Received ack for 100
+Received ack for 101
+Sent data 102
+Sent data 103
+Sent data 104
+Sent data 105
+Received ack for 102
+Sent data 106
+Sent data 107
+Sent data 108
+Received ack for 103
+Sent data 109
+Received ack for 104
+Sent data 110
+Received out off order ack for 104
+Out of order Re-Sent data 105
+Out of order Re-Sent data 106
+Out of order Re-Sent data 107
+Out of order Re-Sent data 108
+Out of order Re-Sent data 109
+Out of order Re-Sent data 110
+Sent data 111
+Received out off order ack for 104
+Received out off order ack for 104
+Received out off order ack for 104
+Received out off order ack for 104
+Received out off order ack for 104
+Received ack for 105
+Received ack for 106
+Sent data 112
+Sent data 113
+Received ack for 107
+Received ack for 108
+Received ack for 109
+Sent data 114
+Sent data 115
+Received ack for 110
+Sent data 116
+Received out off order ack for 110
+Sent data 117
+Received out off order ack for 110
+Received out off order ack for 110
+Received out off order ack for 110
+Out of order Re-Sent data 111
+Out of order Re-Sent data 112
+Out of order Re-Sent data 113
+Out of order Re-Sent data 114
+Out of order Re-Sent data 115
+Out of order Re-Sent data 116
+Out of order Re-Sent data 117
+Received out off order ack for 110
+Received out off order ack for 110
+Received ack for 111
+Received ack for 112
+Received ack for 113
+Received ack for 114
+Sent data 118
+Sent data 119
+Sent data 120
+Received ack for 115
+Received ack for 116
+Received ack for 117
+Sent data 121
+Sent data 122
+Received ack for 118
+Received ack for 119
+Received ack for 120
+Received ack for 121
+Sent data 123
+Sent data 124
+Sent data 125
+Sent data 126
+Sent data 127
+Sent data 128
+Received ack for 122
+Received ack for 123
+Received ack for 124
+Sent data 129
+Received ack for 125
+Received ack for 126
+Received ack for 127
+Received ack for 128
+Sent data 130
+Sent data 131
+Received ack for 129
+Sent data 132
+Received ack for 130
+Sent data 133
+Sent data 134
+Received ack for 131
+Received out off order ack for 131
+Sent data 135
+Sent data 136
+Sent data 137
+Sent data 138
+Received out off order ack for 131
+Received out off order ack for 131
+Received out off order ack for 131
+Re-Sent data 132
+Re-Sent data 133
+Re-Sent data 134
+Re-Sent data 135
+Re-Sent data 136
+Re-Sent data 137
+Re-Sent data 138
+Received ack for 132
+Received ack for 133
+Sent data 139
+Received ack for 134
+Received ack for 135
+Received ack for 136
+Sent data 140
+Sent data 141
+Received ack for 137
+Sent data 142
+Received ack for 138
+Received ack for 139
+Sent data 143
+Sent data 144
+Received ack for 140
+Received ack for 141
+Received ack for 142
+Sent data 145
+Received ack for 143
+Received ack for 144
+Sent data 146
+Received ack for 145
+Sent data 147
+Sent data 148
+Sent data 149
+Sent data 150
+Received ack for 146
+Received ack for 147
+Received ack for 148
+Received ack for 149
+Sent data 151
+Sent data 152
+Received ack for 150
+Sent data 153
+Received ack for 151
+Received ack for 152
+Sent data 154
+Sent data 155
+Received ack for 153
+Received ack for 154
+Sent data 156
+Received ack for 155
+Received ack for 156
+Sent data 157
+Received ack for 157
+Sent data 158
+Sent data 159
+Sent data 160
+Sent data 161
+Received ack for 158
+Received ack for 159
+Sent data 162
+Sent data 163
+Received ack for 160
+Received ack for 161
+Sent data 164
+Received ack for 162
+Sent data 165
+Sent data 166
+Received ack for 163
+Sent data 167
+Sent data 168
+Sent data 169
+Received ack for 164
+Received ack for 165
+Received ack for 166
+Sent data 170
+Received ack for 167
+Sent data 171
+Received ack for 168
+Sent data 172
+Received ack for 169
+Received ack for 170
+Sent data 173
+Received ack for 171
+Sent data 174
+Received ack for 172
+Sent data 175
+Received ack for 173
+Sent data 176
+Received ack for 174
+Received ack for 175
+Sent data 177
+Received ack for 176
+Sent data 178
+Sent data 179
+Received ack for 177
+Sent data 180
+Received ack for 178
+Sent data 181
+Received ack for 179
+Sent data 182
+Received ack for 180
+Sent data 183
+Received ack for 181
+Sent data 184
+Received ack for 182
+Received ack for 183
+Sent data 185
+Received ack for 184
+Sent data 186
+Received ack for 185
+Sent data 187
+Received ack for 186
+Sent data 188
+Received ack for 187
+Sent data 189
+Received ack for 188
+Sent data 190
+Sent data 191
+Received ack for 189
+Sent data 192
+Received ack for 190
+Sent data 193
+Received ack for 191
+Sent data 194
+Received ack for 192
+Sent data 195
+Received ack for 193
+Sent data 196
+Received ack for 194
+Received ack for 195
+Sent data 197
+Received ack for 196
+Sent data 198
+Received ack for 197
+Sent data 199
+Received ack for 198
+Sent data 200
+Received ack for 199
+Sent data 201
+Received ack for 200
+Sent data 202
+Received ack for 201
+Sent data 203
+Received ack for 202
+Sent data 204
+Received ack for 203
+Received ack for 204
+Sent data 205
+Sent data 206
+Received ack for 205
+Sent data 207
+Received ack for 206
+Sent data 208
+Received ack for 207
+Sent data 209
+Received ack for 208
+Sent data 210
+Sent data 211
+Received ack for 209
+Received ack for 210
+Sent data 212
+Received ack for 211
+Received ack for 212
+Sent data 213
+Sent data 214
+Received ack for 213
+Sent data 215
+Received ack for 214
+Sent data 216
+Received ack for 215
+Sent data 217
+Received ack for 216
+Sent data 218
+Received ack for 217
+Sent data 219
+Received ack for 218
+Sent data 220
+Received ack for 219
+Sent data 221
+Received ack for 220
+Sent data 222
+Received ack for 221
+Sent data 223
+Received ack for 222
+Sent data 224
+Received ack for 223
+Sent data 225
+Received ack for 224
+Sent data 226
+Received ack for 225
+Sent data 227
+Sent data 228
+Received ack for 226
+Sent data 229
+Received ack for 227
+Sent data 230
+Received out off order ack for 227
+Out of order Re-Sent data 228
+Out of order Re-Sent data 229
+Out of order Re-Sent data 230
+Sent data 231
+Received out off order ack for 227
+Sent data 232
+Received out off order ack for 227
+Sent data 233
+Received ack for 228
+Sent data 234
+Received ack for 229
+Sent data 235
+Sent data 236
+Received ack for 230
+Received out off order ack for 230
+Received out off order ack for 230
+Sent data 237
+Received out off order ack for 230
+Received out off order ack for 230
+Received out off order ack for 230
+Re-Sent data 231
+Re-Sent data 232
+Re-Sent data 233
+Re-Sent data 234
+Re-Sent data 235
+Re-Sent data 236
+Re-Sent data 237
+Received ack for 231
+Received ack for 232
+Sent data 238
+Sent data 239
+Received ack for 233
+Sent data 240
+Received ack for 234
+Received ack for 235
+Received ack for 236
+Received out off order ack for 236
+Out of order Re-Sent data 237
+Out of order Re-Sent data 238
+Out of order Re-Sent data 239
+Out of order Re-Sent data 240
+Sent data 241
+Sent data 242
+Sent data 243
+Received out off order ack for 236
+Received ack for 237
+Received ack for 238
+Sent data 244
+Received out off order ack for 238
+Received out off order ack for 238
+Received out off order ack for 238
+Received out off order ack for 238
+Received out off order ack for 238
+Sent data 245
+Received out off order ack for 238
+Re-Sent data 239
+Re-Sent data 240
+Re-Sent data 241
+Re-Sent data 242
+Re-Sent data 243
+Re-Sent data 244
+Re-Sent data 245
+Received ack for 239
+Received ack for 240
+Received ack for 241
+Received ack for 242
+Received ack for 243
+Received ack for 244
+Received ack for 245
+Sent data 246
+Sent data 247
+Sent data 248
+Sent data 249
+Received ack for 246
+Sent data 250
+Sent data 251
+Received ack for 247
+Sent data 252
+Sent data 253
+Received ack for 248
+Received ack for 249
+Received ack for 250
+Sent data 254
+Received ack for 251
+Sent data 255
+Sent data 256
+Received ack for 252
+Sent data 257
+Sent data 258
+Sent data 259
+Received ack for 253
+Received ack for 254
+Received ack for 255
+Sent data 260
+Sent data 261
+Sent data 262
+Received ack for 256
+Received ack for 257
+Received ack for 258
+Sent data 263
+Sent data 264
+Sent data 265
+Received ack for 259
+Received ack for 260
+Received ack for 261
+Sent data 266
+Sent data 267
+Received ack for 262
+Received ack for 263
+Received ack for 264
+Received ack for 265
+Sent data 268
+Received ack for 266
+Sent data 269
+Received ack for 267
+Sent data 270
+Received ack for 268
+Received ack for 269
+Received ack for 270
+Sent data 271
+Sent data 272
+Sent data 273
+Sent data 274
+Sent data 275
+Sent data 276
+Sent data 277
+Received out off order ack for 270
+Out of order Re-Sent data 271
+Out of order Re-Sent data 272
+Out of order Re-Sent data 273
+Out of order Re-Sent data 274
+Out of order Re-Sent data 275
+Out of order Re-Sent data 276
+Out of order Re-Sent data 277
+Received out off order ack for 270
+Received out off order ack for 270
+Received out off order ack for 270
+Received out off order ack for 270
+Received out off order ack for 270
+Received ack for 271
+Received ack for 272
+Sent data 278
+Sent data 279
+Received ack for 273
+Received ack for 274
+Sent data 280
+Sent data 281
+Received ack for 275
+Received ack for 276
+Received ack for 277
+Received ack for 278
+Sent data 282
+Received ack for 279
+Sent data 283
+Received ack for 280
+Received ack for 281
+Received ack for 282
+Sent data 284
+Received ack for 283
+Sent data 285
+Received ack for 284
+Sent data 286
+Sent data 287
+Sent data 288
+Sent data 289
+Sent data 290
+Sent data 291
+Received ack for 285
+Received ack for 286
+Received ack for 287
+Sent data 292
+Sent data 293
+Received ack for 288
+Received ack for 289
+Sent data 294
+Received ack for 290
+Received ack for 291
+Received ack for 292
+Received ack for 293
+Received ack for 294
+Sent data 295
+Sent data 296
+Received ack for 295
+Sent data 297
+Received ack for 296
+Sent data 298
+Sent data 299
+Received ack for 297
+Sent data 300
+Sent data 301
+Received ack for 298
+Received ack for 299
+Sent data 302
+Sent data 303
+Received ack for 300
+Received ack for 301
+Received ack for 302
+Sent data 304
+Received ack for 303
+Sent data 305
+Received ack for 304
+Sent data 306
+Sent data 307
+Sent data 308
+Sent data 309
+Sent data 310
+Sent data 311
+Received ack for 305
+Received ack for 306
+Sent data 312
+Received ack for 307
+Received ack for 308
+Received ack for 309
+Sent data 313
+Sent data 314
+Received ack for 310
+Received ack for 311
+Received ack for 312
+Sent data 315
+Sent data 316
+Received ack for 313
+Received ack for 314
+Received ack for 315
+Received ack for 316
+Sent data 317
+Sent data 318
+Sent data 319
+Sent data 320
+Sent data 321
+Sent data 322
+Received ack for 317
+Sent data 323
+Sent data 324
+Received ack for 318
+Sent data 325
+Received ack for 319
+Received ack for 320
+Sent data 326
+Received ack for 321
+Sent data 327
+Received ack for 322
+Sent data 328
+Received ack for 323
+Received ack for 324
+Sent data 329
+Sent data 330
+Sent data 331
+Received ack for 325
+Received ack for 326
+Received ack for 327
+Received ack for 328
+Received ack for 329
+Received ack for 330
+Received ack for 331
+Sent data 332
+Sent data 333
+Sent data 334
+Sent data 335
+Sent data 336
+Sent data 337
+Sent data 338
+Received ack for 332
+Received ack for 333
+Received ack for 334
+Received ack for 335
+Received ack for 336
+Received ack for 337
+Sent data 339
+Sent data 340
+Received ack for 338
+Received ack for 339
+Received ack for 340
+Sent data 341
+Sent data 342
+Received ack for 341
+Sent data 343
+Sent data 344
+Sent data 345
+Sent data 346
+Received ack for 342
+Received ack for 343
+Sent data 347
+Sent data 348
+Sent data 349
+Received ack for 344
+Sent data 350
+Sent data 351
+Received ack for 345
+Sent data 352
+Received ack for 346
+Received ack for 347
+Received ack for 348
+Sent data 353
+Sent data 354
+Received ack for 349
+Received ack for 350
+Sent data 355
+Sent data 356
+Received ack for 351
+Sent data 357
+Received ack for 352
+Received ack for 353
+Received ack for 354
+Sent data 358
+Sent data 359
+Sent data 360
+Received ack for 355
+Received ack for 356
+Received ack for 357
+Sent data 361
+Received ack for 358
+Sent data 362
+Received ack for 359
+Sent data 363
+Received ack for 360
+Received ack for 361
+Received ack for 362
+Sent data 364
+Sent data 365
+Received ack for 363
+Received ack for 364
+Sent data 366
+Sent data 367
+Sent data 368
+Sent data 369
+Received ack for 365
+Received ack for 366
+Received out off order ack for 366
+Out of order Re-Sent data 367
+Out of order Re-Sent data 368
+Out of order Re-Sent data 369
+Sent data 370
+Received out off order ack for 366
+Sent data 371
+Sent data 372
+Sent data 373
+Received out off order ack for 366
+Received ack for 367
+Received ack for 368
+Received ack for 369
+Received out off order ack for 369
+Received out off order ack for 369
+Received out off order ack for 369
+Sent data 374
+Sent data 375
+Sent data 376
+Received out off order ack for 369
+Received out off order ack for 369
+Received out off order ack for 369
+Re-Sent data 370
+Re-Sent data 371
+Re-Sent data 372
+Re-Sent data 373
+Re-Sent data 374
+Re-Sent data 375
+Re-Sent data 376
+Received ack for 370
+Sent data 377
+Received ack for 371
+Received ack for 372
+Received ack for 373
+Received ack for 374
+Received ack for 375
+Sent data 378
+Sent data 379
+Sent data 380
+Received ack for 376
+Sent data 381
+Received ack for 377
+Sent data 382
+Received ack for 378
+Sent data 383
+Sent data 384
+Received ack for 379
+Sent data 385
+Received ack for 380
+Received ack for 381
+Received ack for 382
+Sent data 386
+Sent data 387
+Received ack for 383
+Received ack for 384
+Sent data 388
+Sent data 389
+Received ack for 385
+Received ack for 386
+Sent data 390
+Sent data 391
+Received ack for 387
+Sent data 392
+Sent data 393
+Received ack for 388
+Received ack for 389
+Received ack for 390
+Sent data 394
+Received ack for 391
+Sent data 395
+Sent data 396
+Sent data 397
+Received ack for 392
+Sent data 398
+Sent data 399
+Received ack for 393
+Received ack for 394
+Received ack for 395
+Received ack for 396
+Sent data 400
+Sent data 401
+Sent data 402
+Received ack for 397
+Sent data 403
+Sent data 404
+Received ack for 398
+Received ack for 399
+Sent data 405
+Received ack for 400
+Received ack for 401
+Received ack for 402
+Sent data 406
+Received ack for 403
+Received ack for 404
+Received ack for 405
+Received ack for 406
+Sent data 407
+Sent data 408
+Sent data 409
+Sent data 410
+Sent data 411
+Sent data 412
+Sent data 413
+Received ack for 407
+Received ack for 408
+Sent data 414
+Received ack for 409
+Sent data 415
+Received ack for 410
+Sent data 416
+Received ack for 411
+Received ack for 412
+Received ack for 413
+Received ack for 414
+Sent data 417
+Received ack for 415
+Sent data 418
+Sent data 419
+Sent data 420
+Sent data 421
+Received ack for 416
+Received ack for 417
+Received ack for 418
+Sent data 422
+Sent data 423
+Sent data 424
+Sent data 425
+Received ack for 419
+Received ack for 420
+Received ack for 421
+Sent data 426
+Sent data 427
+Received ack for 422
+Received ack for 423
+Received ack for 424
+Sent data 428
+Sent data 429
+Received out off order ack for 424
+Out of order Re-Sent data 425
+Out of order Re-Sent data 426
+Out of order Re-Sent data 427
+Out of order Re-Sent data 428
+Out of order Re-Sent data 429
+Sent data 430
+Sent data 431
+Received out off order ack for 424
+Received out off order ack for 424
+Received out off order ack for 424
+Received out off order ack for 424
+Received ack for 425
+Received ack for 426
+Received ack for 427
+Sent data 432
+Sent data 433
+Received ack for 428
+Received ack for 429
+Sent data 434
+Received out off order ack for 429
+Received out off order ack for 429
+Sent data 435
+Received out off order ack for 429
+Received out off order ack for 429
+Sent data 436
+Received out off order ack for 429
+Received out off order ack for 429
+Re-Sent data 430
+Re-Sent data 431
+Re-Sent data 432
+Re-Sent data 433
+Re-Sent data 434
+Re-Sent data 435
+Re-Sent data 436
+Received ack for 430
+Received ack for 431
+Received ack for 432
+Received ack for 433
+Received ack for 434
+Sent data 437
+Received ack for 435
+Received ack for 436
+Received ack for 437
+Sent data 438
+Sent data 439
+Sent data 440
+Sent data 441
+Received ack for 438
+Received ack for 439
+Sent data 442
+Sent data 443
+Sent data 444
+Sent data 445
+Received ack for 440
+Sent data 446
+Sent data 447
+Received ack for 441
+Received ack for 442
+Sent data 448
+Sent data 449
+Received ack for 443
+Received ack for 444
+Received ack for 445
+Received ack for 446
+Sent data 450
+Sent data 451
+Received ack for 447
+Received ack for 448
+Received ack for 449
+Received ack for 450
+Received ack for 451
+Sent data 452
+Sent data 453
+Received ack for 452
+Sent data 454
+Sent data 455
+Received ack for 453
+Sent data 456
+Sent data 457
+Sent data 458
+Sent data 459
+Sent data 460
+Received ack for 454
+Received ack for 455
+Received ack for 456
+Received ack for 457
+Received ack for 458
+Received ack for 459
+Sent data 461
+Sent data 462
+Received ack for 460
+Received ack for 461
+Received ack for 462
+finishing acknowledging thread
+finishing uploading thread
+connection closed
+re transmission count : 77
