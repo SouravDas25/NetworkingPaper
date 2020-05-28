@@ -99,7 +99,7 @@ def uploading_thread_task(lock):
             time.sleep(0.001)
             retransmit_window(lock)
 
-        if len(WINDOW) > 0 and next(iter(WINDOW)) - NEXT_SEQ_NO > 30:
+        if len(WINDOW) > 0 and NEXT_SEQ_NO - next(iter(WINDOW)) > 30:
             retransmit_window(lock)
     file_open.close()
     with lock:
