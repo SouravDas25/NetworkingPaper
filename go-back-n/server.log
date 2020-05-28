@@ -43,6 +43,18 @@ Received in-order 21
 Ack 21
 Received in-order 22
 Ack 22
+Received out of order 24
+Ack 22
+Received out of order 25
+Ack 22
+Received out of order 26
+Ack 22
+Received out of order 27
+Ack 22
+Received out of order 28
+Ack 22
+Received out of order 29
+Ack 22
 Received in-order 23
 Ack 23
 Received in-order 24
@@ -80,18 +92,6 @@ Ack 39
 Received in-order 40
 Ack 40
 Received in-order 41
-Ack 41
-Received out of order 43
-Ack 41
-Received out of order 44
-Ack 41
-Received out of order 45
-Ack 41
-Received out of order 46
-Ack 41
-Received out of order 47
-Ack 41
-Received out of order 48
 Ack 41
 Received in-order 42
 Ack 42
@@ -167,6 +167,14 @@ Received in-order 77
 Ack 77
 Received in-order 78
 Ack 78
+Received out of order 80
+Ack 78
+Received out of order 81
+Ack 78
+Received out of order 82
+Ack 78
+Received out of order 83
+Ack 78
 Received in-order 79
 Ack 79
 Received in-order 80
@@ -174,6 +182,18 @@ Ack 80
 Received in-order 81
 Ack 81
 Received in-order 82
+Ack 82
+Received out of order 84
+Ack 82
+Received out of order 85
+Ack 82
+Received out of order 86
+Ack 82
+Received out of order 87
+Ack 82
+Received out of order 88
+Ack 82
+Received out of order 89
 Ack 82
 Received in-order 83
 Ack 83
@@ -219,18 +239,6 @@ Received in-order 103
 Ack 103
 Received in-order 104
 Ack 104
-Received out of order 106
-Ack 104
-Received out of order 107
-Ack 104
-Received out of order 108
-Ack 104
-Received out of order 109
-Ack 104
-Received out of order 110
-Ack 104
-Received out of order 111
-Ack 104
 Received in-order 105
 Ack 105
 Received in-order 106
@@ -242,18 +250,6 @@ Ack 108
 Received in-order 109
 Ack 109
 Received in-order 110
-Ack 110
-Received out of order 112
-Ack 110
-Received out of order 113
-Ack 110
-Received out of order 114
-Ack 110
-Received out of order 115
-Ack 110
-Received out of order 116
-Ack 110
-Received out of order 117
 Ack 110
 Received in-order 111
 Ack 111
@@ -297,14 +293,6 @@ Received in-order 130
 Ack 130
 Received in-order 131
 Ack 131
-Received out of order 133
-Ack 131
-Received out of order 134
-Ack 131
-Received out of order 135
-Ack 131
-Received out of order 137
-Ack 131
 Received in-order 132
 Ack 132
 Received in-order 133
@@ -335,7 +323,21 @@ Received in-order 145
 Ack 145
 Received in-order 146
 Ack 146
+Received out of order 148
+Ack 146
 Received in-order 147
+Ack 147
+Received out of order 149
+Ack 147
+Received out of order 150
+Ack 147
+Received out of order 151
+Ack 147
+Received out of order 152
+Ack 147
+Received out of order 153
+Ack 147
+Received out of order 154
 Ack 147
 Received in-order 148
 Ack 148
@@ -485,6 +487,16 @@ Received in-order 220
 Ack 220
 Received in-order 221
 Ack 221
+Received out of order 223
+Ack 221
+Received out of order 224
+Ack 221
+Received out of order 225
+Ack 221
+Received out of order 226
+Ack 221
+Received out of order 227
+Ack 221
 Received in-order 222
 Ack 222
 Received in-order 223
@@ -495,29 +507,37 @@ Received in-order 225
 Ack 225
 Received in-order 226
 Ack 226
-Received in-order 227
-Ack 227
+Received out of order 228
+Ack 226
 Received out of order 229
-Ack 227
+Ack 226
 Received out of order 230
-Ack 227
+Ack 226
 Received out of order 231
+Ack 226
+Received out of order 232
+Ack 226
+Received out of order 233
+Ack 226
+Received out of order 228
+Ack 226
+Received out of order 229
+Ack 226
+Received out of order 230
+Ack 226
+Received out of order 231
+Ack 226
+Received out of order 232
+Ack 226
+Received out of order 233
+Ack 226
+Received in-order 227
 Ack 227
 Received in-order 228
 Ack 228
 Received in-order 229
 Ack 229
 Received in-order 230
-Ack 230
-Received out of order 232
-Ack 230
-Received out of order 233
-Ack 230
-Received out of order 234
-Ack 230
-Received out of order 235
-Ack 230
-Received out of order 237
 Ack 230
 Received in-order 231
 Ack 231
@@ -531,25 +551,9 @@ Received in-order 235
 Ack 235
 Received in-order 236
 Ack 236
-Received out of order 238
-Ack 236
-Received out of order 240
-Ack 236
 Received in-order 237
 Ack 237
 Received in-order 238
-Ack 238
-Received out of order 240
-Ack 238
-Received out of order 241
-Ack 238
-Received out of order 242
-Ack 238
-Received out of order 243
-Ack 238
-Received out of order 244
-Ack 238
-Received out of order 245
 Ack 238
 Received in-order 239
 Ack 239
@@ -614,18 +618,6 @@ Ack 268
 Received in-order 269
 Ack 269
 Received in-order 270
-Ack 270
-Received out of order 272
-Ack 270
-Received out of order 273
-Ack 270
-Received out of order 274
-Ack 270
-Received out of order 275
-Ack 270
-Received out of order 276
-Ack 270
-Received out of order 277
 Ack 270
 Received in-order 271
 Ack 271
@@ -819,29 +811,11 @@ Received in-order 365
 Ack 365
 Received in-order 366
 Ack 366
-Received out of order 368
-Ack 366
-Received out of order 369
-Ack 366
-Received out of order 370
-Ack 366
 Received in-order 367
 Ack 367
 Received in-order 368
 Ack 368
 Received in-order 369
-Ack 369
-Received out of order 371
-Ack 369
-Received out of order 372
-Ack 369
-Received out of order 373
-Ack 369
-Received out of order 374
-Ack 369
-Received out of order 375
-Ack 369
-Received out of order 376
 Ack 369
 Received in-order 370
 Ack 370
@@ -861,6 +835,14 @@ Received in-order 377
 Ack 377
 Received in-order 378
 Ack 378
+Received out of order 380
+Ack 378
+Received out of order 381
+Ack 378
+Received out of order 382
+Ack 378
+Received out of order 383
+Ack 378
 Received in-order 379
 Ack 379
 Received in-order 380
@@ -869,11 +851,35 @@ Received in-order 381
 Ack 381
 Received in-order 382
 Ack 382
+Received out of order 384
+Ack 382
+Received out of order 385
+Ack 382
+Received out of order 386
+Ack 382
+Received out of order 387
+Ack 382
+Received out of order 388
+Ack 382
+Received out of order 389
+Ack 382
 Received in-order 383
 Ack 383
 Received in-order 384
 Ack 384
 Received in-order 385
+Ack 385
+Received out of order 387
+Ack 385
+Received out of order 388
+Ack 385
+Received out of order 389
+Ack 385
+Received out of order 390
+Ack 385
+Received out of order 391
+Ack 385
+Received out of order 392
 Ack 385
 Received in-order 386
 Ack 386
@@ -953,16 +959,6 @@ Received in-order 423
 Ack 423
 Received in-order 424
 Ack 424
-Received out of order 426
-Ack 424
-Received out of order 427
-Ack 424
-Received out of order 428
-Ack 424
-Received out of order 429
-Ack 424
-Received out of order 430
-Ack 424
 Received in-order 425
 Ack 425
 Received in-order 426
@@ -972,18 +968,6 @@ Ack 427
 Received in-order 428
 Ack 428
 Received in-order 429
-Ack 429
-Received out of order 431
-Ack 429
-Received out of order 432
-Ack 429
-Received out of order 433
-Ack 429
-Received out of order 434
-Ack 429
-Received out of order 435
-Ack 429
-Received out of order 436
 Ack 429
 Received in-order 430
 Ack 430
@@ -1052,5 +1036,5 @@ Ack 461
 Received in-order 462
 Ack 462
 FILE TRANSFER SUCCESSFUL
-TIME TAKEN  2.898603 s
-No Of Transmission Required :  1052
+TIME TAKEN  2.726852 s
+No Of Transmission Required :  1036

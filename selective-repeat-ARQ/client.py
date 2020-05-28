@@ -32,7 +32,7 @@ FORCE_ERROR = True
 
 
 def transmit(gbn_client, param: bytes, address: tuple):
-    if FORCE_ERROR and random.randrange(0, 1000) % 53 == 0:
+    if FORCE_ERROR and random.randrange(0, 1000) % 10 == 0:
         return
     gbn_client.sendto(param, address)
     # print("sending data - > ", param)
