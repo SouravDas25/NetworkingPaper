@@ -21,13 +21,16 @@ def main():
 
         f = open('client-img.jpg', 'rb')
         data = f.read(1024)
+        i = 0
         while data:
-            print('Sending...')
+            i = i + 1
+            print("Sending Data Packet " , i)
             client.send(data)
             data = f.read(1024)
         f.close()
 
         client.close()
+        print (f"Data sending successful , totally sent  {i} packets")
     except socket.error as err:
         print("socket creation failed with error %s" % err)
 

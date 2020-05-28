@@ -7,21 +7,20 @@ PORT = 12345
 def main():
     upd_client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     server_address = (HOST, PORT)
-    message = 'This is the message.  It will be repeated.'
-
+    f = open('client-img.jpg', 'rb')
+    data = f.read(4096)
+    packetNumber = 0
+    print("client started , started sending file")
     try:
-
-        # Send data
-        print('sending "%s"' % message)
-        sent = upd_client.sendto(message.encode(), server_address)
-
-        # Receive response
-        print('waiting to receive')
-        data, server = upd_client.recvfrom(4096)
-        print('received "%s"' % data)
+        while data:
+            if upd_client.sendto(data, server_address):
+                packetNumber = packetNumber + 1
+                data = f.read(4096)
+        upd_client.close()
+        f.close()
 
     finally:
-        print('closing udp server')
+        print(f'File sending finished,closing udp server , {packetNumber} packet sent')
         upd_client.close()
 
 

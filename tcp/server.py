@@ -6,6 +6,19 @@ HOST = socket.gethostbyname('localhost')
 PORT = 12345
 
 
+def get_random_word():
+    lis = ['Apple', "Ball", "Cat", "Dog"]
+    random.shuffle(lis)
+    return lis.pop()
+
+
+def recv_words(connection):
+    word = connection.recv(1024)
+    word = word.decode()
+    words: str = word
+    return words
+
+
 def main():
     localhost_server = socket.socket()
 
@@ -23,8 +36,8 @@ def main():
         f = open("output.jpg", "wb")
 
         l = connection.recv(1024)
+        print("Started Receiving Data ... ")
         while l:
-            print("Receiving...")
             f.write(l)
             l = connection.recv(1024)
         f.close()
@@ -35,6 +48,7 @@ def main():
         end_time = datetime.datetime.now()
         diff = end_time - start_time
         print("TIME TAKEN ", diff.total_seconds(), "s")
+        break;
 
 
 if __name__ == "__main__":
