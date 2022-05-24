@@ -1,38 +1,43 @@
-def findMedianSortedArrays(num1, num2) -> float:
-    if len(num2) < len(num1):
-        num1, num2 = num2, num1
+movement = [(-1, 0), (1, 0), (0, 1), (0, -1)]
 
-    x = len(num1)
-    y = len(num2)
 
-    l = 0
-    h = x
-
-    midOfMerged = (x + y + 1) // 2
-
-    while l <= h:
-        mid = (h + l) // 2
-        print(l, mid, h, midOfMerged)
-
-        leftUp = num1[mid - 1] if mid > 0 else float("-inf")
-        leftDown = num2[midOfMerged - mid - 1] if midOfMerged - mid > 0 else float("-inf")
-
-        rightUp = num1[mid] if mid < x else float("inf")
-        rightDown = num2[midOfMerged - mid] if midOfMerged - mid < y else float("inf")
-
-        if leftUp < rightDown and leftDown < rightUp:
-            if (x + y) % 2 == 0:
-                return (max(leftUp, leftDown) + min(rightDown, rightUp)) / 2
-            else:
-                return max(leftUp, leftDown)
-        elif leftUp > leftDown:
-            h = mid - 1
+def solve_dfs(board, i, j, visited, globalvisited):
+    visited.add((i, j))
+    globalvisited.add((i, j))
+    elmInBorder = False
+    for m in movement:
+        xi, xj = i + m[0], j + m[1]
+        if 0 <= xi < len(board) and 0 <= xj < len(board[i]):
+            if board[xi][xj] == "O" and (xi, xj) not in visited:
+                c = solve_dfs(board, xi, xj, visited, globalvisited)
+                elmInBorder = elmInBorder or c
         else:
-            l = mid + 1
-    return 0
+            elmInBorder = elmInBorder or True
+
+    return elmInBorder
 
 
-nums1 = [1]
-nums2 = [1]
+def solve(board) -> None:
+    globalvisited = set()
+    for i in range(len(board)):
+        for j in range(len(board[i])):
+            if board[i][j] == "O" and (i, j) not in globalvisited:
+                visited = set()
+                elementInBorder = solve_dfs(board, i, j, visited, globalvisited)
+                print(elementInBorder, i, j)
+                if not elementInBorder:
+                    for ci, cj in visited:
+                        board[ci][cj] = "X"
 
-print(findMedianSortedArrays(nums1, nums2))
+
+board = [
+    ["X", "X", "X", "X"],
+    ["X", "O", "O", "X"],
+    ["X", "X", "O", "X"],
+    ["X", "O", "X", "X"]
+]
+
+board = [["O", "O", "O"], ["O", "O", "O"], ["O", "O", "O"]]
+
+solve(board)
+board
