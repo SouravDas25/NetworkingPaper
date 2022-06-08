@@ -1,43 +1,40 @@
-movement = [(-1, 0), (1, 0), (0, 1), (0, -1)]
+from typing import List
+from collections import deque
+
+movements = [(1, 0), (-1, 0), (0, 1), (0, -1)]
 
 
-def solve_dfs(board, i, j, visited, globalvisited):
-    visited.add((i, j))
-    globalvisited.add((i, j))
-    elmInBorder = False
-    for m in movement:
-        xi, xj = i + m[0], j + m[1]
-        if 0 <= xi < len(board) and 0 <= xj < len(board[i]):
-            if board[xi][xj] == "O" and (xi, xj) not in visited:
-                c = solve_dfs(board, xi, xj, visited, globalvisited)
-                elmInBorder = elmInBorder or c
-        else:
-            elmInBorder = elmInBorder or True
+def exist(board: List[List[str]], word: str) -> bool:
+    if len(word) < 1:
+        return True
 
-    return elmInBorder
+    def dfs(i, j, matchIndex, board, visited):
+        if matchIndex + 1 >= len(word):
+            return True
+        visited.add((i, j))
+        print(i, j, matchIndex)
+        for xi, xj in movements:
+            mi = i + xi
+            mj = j + xj
+            if 0 <= mi < len(board) and 0 <= mj < len(board[i]) and (mi, mj) not in visited:
+                if board[mi][mj] == word[matchIndex + 1]:
+                    if matchIndex + 1 >= len(word):
+                        return True
+                    if dfs(mi, mj, matchIndex + 1, board, visited):
+                        return True
+        visited.remove((i, j))
 
-
-def solve(board) -> None:
-    globalvisited = set()
+    visited = set()
     for i in range(len(board)):
         for j in range(len(board[i])):
-            if board[i][j] == "O" and (i, j) not in globalvisited:
-                visited = set()
-                elementInBorder = solve_dfs(board, i, j, visited, globalvisited)
-                print(elementInBorder, i, j)
-                if not elementInBorder:
-                    for ci, cj in visited:
-                        board[ci][cj] = "X"
+            if board[i][j] == word[0]:
+                if dfs(i, j, 0, board, visited):
+                    return True
+
+    return False
 
 
-board = [
-    ["X", "X", "X", "X"],
-    ["X", "O", "O", "X"],
-    ["X", "X", "O", "X"],
-    ["X", "O", "X", "X"]
-]
-
-board = [["O", "O", "O"], ["O", "O", "O"], ["O", "O", "O"]]
-
-solve(board)
-board
+board = [["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"],
+         ["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "B"], ["A", "A", "A", "A", "B", "A"]]
+word = "AAAAAAAAAAAAABB"
+print(exist(board, word))
