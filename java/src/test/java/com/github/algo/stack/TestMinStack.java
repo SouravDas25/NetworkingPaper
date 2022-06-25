@@ -1,4 +1,4 @@
-package com.gihub.algo;
+package com.github.algo.stack;
 
 
 import com.github.algo.stack.MinStack;
