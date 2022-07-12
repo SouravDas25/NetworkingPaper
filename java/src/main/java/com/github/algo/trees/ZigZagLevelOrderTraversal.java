@@ -2,36 +2,37 @@ package com.github.algo.trees;
 
 import java.util.*;
 
-public class LevelOrderTraversal {
+public class ZigZagLevelOrderTraversal {
 
-    public List<List<Integer>> levelOrder(TreeNode<Integer> root) {
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         if(root == null) {
             return Collections.emptyList();
         }
-        List<TreeNode<Integer>> level = new LinkedList<>();
+        List<TreeNode> level = new LinkedList<>();
         level.add(root);
+
         List<List<Integer>> outputList = new ArrayList<>();
+        boolean reverse = false;
         while (!level.isEmpty()) {
-            List<TreeNode<Integer>> nextLevel = new LinkedList<>();
+            LinkedList<TreeNode> nextLevel = new LinkedList<>();
             List<Integer> values = new ArrayList<>();
             for (TreeNode<Integer> node : level) {
-                if (node.left != null){
+                if (node.left != null) {
                     nextLevel.add(node.left);
                 }
-                if (node.right != null){
+                if (node.right != null) {
                     nextLevel.add(node.right);
                 }
                 values.add(node.value);
             }
-            outputList.add(values);
+            if (reverse) {
+                Collections.reverse(values);
+            }
+            reverse = !reverse;
             level = nextLevel;
+            outputList.add(values);
         }
         return outputList;
     }
 
-    public List<List<Integer>> levelOrderBottom(TreeNode<Integer> root) {
-        List<List<Integer>> lists = this.levelOrder(root);
-        Collections.reverse(lists);
-        return lists;
-    }
 }

@@ -16,4 +16,13 @@ class LevelOrderTraversalTest {
         System.out.println(integerBinaryTree);
         System.out.println(lists);
     }
+
+    @Test
+    void levelOrderBottom() {
+        BinaryTree<Integer> integerBinaryTree = BinaryTree.generateTree(1, 2, 3, null, null, 4, 5, 6, 7);
+        LevelOrderTraversal levelOrderTraversal = new LevelOrderTraversal();
+        List<List<Integer>> lists = levelOrderTraversal.levelOrderBottom(integerBinaryTree.root);
+        System.out.println(integerBinaryTree);
+        System.out.println(lists);
+    }
 }
