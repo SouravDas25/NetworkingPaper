@@ -1,4 +1,4 @@
-package com.github.algo.dp;
+package com.github.algo.stack;
 
 import org.javatuples.Pair;
 
