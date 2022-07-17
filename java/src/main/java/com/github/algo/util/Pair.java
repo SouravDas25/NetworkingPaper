@@ -1,4 +1,4 @@
-package com.github.algo.tuple;
+package com.github.algo.util;
 
 import java.util.Objects;
 
