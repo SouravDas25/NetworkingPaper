@@ -1,16 +1,16 @@
 package com.github.algo.heap;
 
-import com.google.common.collect.Comparators;
-import com.google.errorprone.annotations.CompatibleWith;
-import org.assertj.core.internal.Comparables;
-
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class MaximumUnitsTruck {
 
     public int maximumUnits(int[][] boxTypes, int truckSize) {
-        List<int[]> objects = Arrays.stream(boxTypes).sorted(Comparator.comparing(a -> a[1], Comparator.reverseOrder())).collect(Collectors.toList());
+        List<int[]> objects = Arrays.stream(boxTypes)
+                .sorted(Comparator.comparing(a -> a[1], Comparator.reverseOrder()))
+                .collect(Collectors.toList());
 //        objects.stream().map(Arrays::toString).forEach(System.out::println);
         int count = 0;
         for (int[] object : objects) {
