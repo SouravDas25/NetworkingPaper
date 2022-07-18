@@ -9,7 +9,7 @@ class DecodeWaysTest {
     @Test
     void numDecodings() {
         DecodeWays decodeWays = new DecodeWays();
-        int i = decodeWays.numDecodings("226");
+        long i = decodeWays.numDecodings("121212121212121212121212121212121121212121212121212121212121212121121212121212121212121212121212121121212121212121212121212121212121");
         System.out.println(i);
     }
 }
