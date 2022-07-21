@@ -11,7 +11,7 @@ class ArrayConverterTest {
     @Test
     void convertToJavaArray() {
         ArrayConverter arrayConverter = new ArrayConverter();
-        String s = arrayConverter.convertToJavaArray("[[1,-1],[-1,1]]");
+        String s = arrayConverter.convertToJavaArray("[[0,1,0],[1,1,1],[0,1,0]]");
         System.out.println(s);
     }
 }
