@@ -1,8 +1,5 @@
 package com.github.algo.binarysearch;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MedianOf2SortedArrays {
 
     private int properValues(int[] nums1, int index) {
