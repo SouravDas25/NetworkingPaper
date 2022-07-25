@@ -50,6 +50,11 @@ public class Steams {
         System.out.println(collect.stream().mapToInt(i -> i).max());
 
         System.out.println(collect.stream().reduce(0, Integer::sum).intValue());
+
+        Map<Integer, Long> collect1 = collect.stream().collect(Collectors.groupingBy(Integer::valueOf, Collectors.counting()));
+
+        Map<Object, String> collect2 = collect.stream().map(String::valueOf).collect(Collectors.groupingBy(String::valueOf, Collectors.joining() ));
+
     }
 
     @Test
@@ -62,5 +67,6 @@ public class Steams {
 
         Map<Character, List<String>> collect = strings.stream().collect(Collectors.groupingBy(s -> s.charAt(0)));
         System.out.println(collect);
+
     }
 }
