@@ -1,6 +1,5 @@
 package com.github.algo.binarysearch;
 
-import java.util.Arrays;
 
 public class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
