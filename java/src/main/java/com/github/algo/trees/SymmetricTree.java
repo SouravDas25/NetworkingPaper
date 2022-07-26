@@ -4,24 +4,18 @@ import java.util.*;
 
 public class SymmetricTree {
 
-
-
-    private void inOrder(TreeNode<Integer> node, List<String> output) {
-        if (node == null) {
-            output.add("#");
-            return;
+    private boolean isSymmetric(TreeNode<Integer> left, TreeNode<Integer> right) {
+        if (left == null || right == null) {
+            return left == right;
         }
-        inOrder(node.left, output);
-        output.add(node.value.toString());
-        inOrder(node.right, output);
+        if (!Objects.equals(left.value, right.value)) {
+            return false;
+        }
+        return isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left);
     }
 
     public boolean isSymmetric(TreeNode root) {
-        List<String> left = new LinkedList<>();
-        inOrder(root.left, left);
-        List<String> right = new LinkedList<>();
-        inOrder(root.right, right);
-        Collections.reverse(right);
-        return left.equals(right);
+        if (root == null) return false;
+        return isSymmetric(root.left, root.right);
     }
 }
