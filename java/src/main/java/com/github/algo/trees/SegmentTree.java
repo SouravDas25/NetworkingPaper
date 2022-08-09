@@ -1,55 +1,59 @@
 package com.github.algo.trees;
 
+import com.github.algo.interfaces.TernaryOperator;
+
+import java.util.Arrays;
+import java.util.function.UnaryOperator;
+
 public class SegmentTree {
 
-    private final int[] segments;
-    private final int n;
-    private final int[] nums;
+    private int[] segments;
+    private int low;
+    private int high;
+    private int defaultVal;
 
-    public SegmentTree(int n) {
-        this.n = n;
-        segments = new int[4 * n];
-        nums = new int[n];
+    public SegmentTree(int low, int high, int defaultVal) {
+        this.low = low;
+        this.high = high;
+        segments = new int[(high - low) * 4 + 1];
+        this.defaultVal = defaultVal;
+        Arrays.fill(segments, defaultVal);
     }
 
-    private void updateSeq(int i, int ci, int left, int right, int diff) {
-        if (left > right || i < left || right < i) {
+    private void updateSegment(int key, int segmentIndex, int left, int right, UnaryOperator<Integer> lambda) {
+        if (key < left || right < key) {
             return;
         }
-        segments[ci] += diff;
+        segments[segmentIndex] = lambda.apply(segments[segmentIndex]);
         if (right != left) {
             int mid = (left + right) >> 1;
-            updateSeq(i, 2 * ci + 1, left, mid, diff);
-            updateSeq(i, 2 * ci + 2, mid + 1, right, diff);
+            updateSegment(key, 2 * segmentIndex + 1, left, mid, lambda);
+            updateSegment(key, 2 * segmentIndex + 2, mid + 1, right, lambda);
         }
     }
 
-    public void update(int i, int value) {
-        int diff = value - nums[i];
-        nums[i] = value;
-        updateSeq(i, 0, 0, n - 1, diff);
+    public void update(int key, UnaryOperator<Integer> lambda) {
+        updateSegment(key, 0, low, high, lambda);
     }
 
-    boolean isOverlap(int rl, int rr, int left, int right) {
-        return rr >= left && right >= rl;
+    private static boolean isOverlap(int l, int r, int left, int right) {
+        return r >= left && right >= l;
     }
 
-    private int getValue(int rl, int rr, int left, int right, int ci) {
-        if (rl == left && rr == right) {
-            return segments[ci];
+    private int getValue(int l, int r, int left, int right, int segmentIndex, TernaryOperator<Integer> lambda) {
+        if (l == left && r == right) {
+            return segments[segmentIndex];
         }
-        if (isOverlap(rl, rr, left, right)) {
+        if (isOverlap(l, r, left, right)) {
             int mid = (left + right) >> 1;
-            int lv = getValue(Math.max(rl, left), Math.min(rr, mid), left, mid, 2 * ci + 1);
-            int rv = getValue(Math.max(rl, mid + 1), Math.min(rr, right), mid + 1, right, 2 * ci + 2);
-            return lv + rv;
+            int lv = getValue(Math.max(l, left), Math.min(r, mid), left, mid, 2 * segmentIndex + 1, lambda);
+            int rv = getValue(Math.max(l, mid + 1), Math.min(r, right), mid + 1, right, 2 * segmentIndex + 2, lambda);
+            return lambda.apply(lv, rv, segments[segmentIndex]);
         }
-        return 0;
+        return defaultVal;
     }
 
-    public int get(int left, int right) {
-        return getValue(left, right, 0, n-1, 0);
+    public int get(int l, int r, TernaryOperator<Integer> lambda) {
+        return getValue(l, r, low, high, 0, lambda);
     }
-
-
 }

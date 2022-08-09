@@ -11,7 +11,7 @@ class RangeSumQueryMutableTest {
         int i = rangeSumQueryMutable.sumRange(1, 4);
         System.out.println(i);
         rangeSumQueryMutable.update(1,2);
-        i = rangeSumQueryMutable.sumRange(1, 2);
+        i = rangeSumQueryMutable.sumRange(1, 5);
         System.out.println(i);
     }
 }
