@@ -6,9 +6,9 @@ class ReverseLinkedListIITest {
 
     @Test
     void reverseBetween() {
-        LinkedList<Integer> doublyLinkedList = LinkedList.newList(1, 2, 3, 4, 5);
+        LinkedList<Integer> list = LinkedList.newList(1, 2, 3, 4, 5);
         ReverseLinkedListII reverseLinkedListII = new ReverseLinkedListII();
-        doublyLinkedList.head = reverseLinkedListII.reverseBetween(doublyLinkedList.head, 2, 3);
-        System.out.println(doublyLinkedList);
+        list.head = reverseLinkedListII.reverseBetween(list.head, 1, 5);
+        System.out.println(list);
     }
 }

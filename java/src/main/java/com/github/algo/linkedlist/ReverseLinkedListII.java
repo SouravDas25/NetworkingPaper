@@ -2,9 +2,9 @@ package com.github.algo.linkedlist;
 
 public class ReverseLinkedListII {
 
-    public ListNode<Integer> reverseBetween(ListNode<Integer> head, int left, int right) {
-        ListNode<Integer> current = head;
-        ListNode<Integer> previous = null;
+    public ListNode reverseBetween(ListNode head, int left, int right) {
+        ListNode current = head;
+        ListNode previous = null;
         if(left <= 0) left = 1;
         int count = 0;
         while (current.next != null) {
