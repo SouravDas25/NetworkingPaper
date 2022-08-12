@@ -70,11 +70,9 @@ public class LinkedList<T> {
         return list;
     }
 
-
-    @Override
-    public String toString() {
+    public static String toString(ListNode node) {
         StringBuilder sb = new StringBuilder();
-        ListNode<T> current = head;
+        ListNode current = node;
         sb.append("[");
         while (current != null) {
             sb.append(current.value);
@@ -85,6 +83,12 @@ public class LinkedList<T> {
         }
         sb.append("]");
         return sb.toString();
+    }
+
+
+    @Override
+    public String toString() {
+        return LinkedList.toString(this.head);
     }
 
 }
