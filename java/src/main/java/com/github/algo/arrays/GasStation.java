@@ -13,7 +13,6 @@ public class GasStation {
                 sum = 0;
                 changeI = i + 1;
             }
-
         }
         return net < 0 ? -1 : changeI;
     }
