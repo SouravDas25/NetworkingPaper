@@ -12,7 +12,7 @@ public class CountPrimes {
         if (n % 2 == 0) {
             return false;
         }
-        boolean[] composites = new boolean[n];
+//        boolean[] composites = new boolean[n];
         for (int i = 2; i < Math.sqrt(n); i++) {
             if (n % i == 0) {
                 return false;
@@ -29,7 +29,7 @@ public class CountPrimes {
     }
 
     private int findPrimeCount(int n) {
-        int i = Arrays.binarySearch(cache.toArray(Integer[]::new), n);
+        int i = Arrays.binarySearch(cache.toArray(), n);
         if (i < 0) {
             return Math.abs(i) - 1;
         }
