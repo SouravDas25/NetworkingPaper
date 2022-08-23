@@ -2,7 +2,7 @@ package com.github.algo.util;
 
 import java.util.Objects;
 
-public class Pair<A, B> {
+public class Pair<A, B> implements Comparable<Pair<A, B>> {
     private final A val0;
     private final B val1;
 
@@ -43,4 +43,25 @@ public class Pair<A, B> {
                 ", val1=" + val1 +
                 '}';
     }
+
+    @Override
+    public int compareTo(Pair<A, B> o) {
+        Object[] tValues = {this.val0, this.val1};
+        int tLen = 2;
+        Object[] oValues = {o.val0, o.val1};
+        int oLen = 2;
+
+        for (int i = 0; i < tLen && i < oLen; ++i) {
+            Comparable tElement = (Comparable) tValues[i];
+            Comparable oElement = (Comparable) oValues[i];
+            int comparison = tElement.compareTo(oElement);
+            if (comparison != 0) {
+                return comparison;
+            }
+        }
+
+        return Integer.compare(tLen, oLen);
+    }
+
+
 }
