@@ -9,7 +9,7 @@ class LongestPalindromeConcatenatingTwoLetterWordsTest {
     @Test
     void longestPalindrome() {
         LongestPalindromeConcatenatingTwoLetterWords longestPalindromeConcatenatingTwoLetterWords = new LongestPalindromeConcatenatingTwoLetterWords();
-        int i = longestPalindromeConcatenatingTwoLetterWords.longestPalindrome(new String[]{"cc","ll","xx"});
+        int i = longestPalindromeConcatenatingTwoLetterWords.longestPalindrome(new String[]{"dd", "aa", "bb", "dd", "aa", "dd", "bb", "dd", "aa", "cc", "bb", "cc", "dd", "cc"});
         System.out.println(i);
     }
 }
