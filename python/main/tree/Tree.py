@@ -14,7 +14,7 @@ class Tree:
         printNode("", root, False)
 
     @staticmethod
-    def createTree(values):
+    def createTree(values) -> TreeNode:
         leafs = []
         num = values.pop(0)
         root = TreeNode(num)
