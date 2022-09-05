@@ -1,5 +1,4 @@
 from collections import defaultdict, deque
-from functools import lru_cache
 from typing import List
 
 
@@ -15,8 +14,13 @@ class Solution:
                 return False
         return count <= 1
 
-    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
+    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         wordList.append(beginWord)
+
+        wordSet = set(wordList)
+        if endWord not in wordSet:
+            return 0
+
         graph = defaultdict(set)
         for word1 in wordList:
             for word2 in wordList:
@@ -25,28 +29,27 @@ class Solution:
                     graph[word2].add(word1)
 
         print(graph)
-        queue = deque([(beginWord, [beginWord])])
-        output = []
-        endWordReached = False
+        queue = deque([beginWord])
+        level = 0
         visited = set()
         while len(queue) > 0:
+            level += 1
             size = len(queue)
             for i in range(size):
-                word, current = queue.popleft()
+                word = queue.popleft()
                 visited.add(word)
                 if word == endWord:
-                    output.append(current)
-                    endWordReached = True
+                    return level
 
-                for vetex in graph[word]:
-                    if vetex not in visited:
-                        queue.append((vetex, current + [vetex]))
-            if endWordReached:
-                return output
-        return output
+                for vertex in graph[word]:
+                    if vertex not in visited:
+                        queue.append(vertex)
+                        if word == endWord:
+                            return level + 1
+        return 0
 
 
 if __name__ == "__main__":
     solution = Solution()
-    output = solution.findLadders("hit", "cog",["hot","dot","dog","lot","log","cog"])
+    output = solution.ladderLength("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"])
     print(output)
