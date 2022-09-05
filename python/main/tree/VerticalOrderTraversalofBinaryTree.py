@@ -25,7 +25,7 @@ class Solution:
         output = []
         for key in sorted(verticalOrders.keys()):
             vl = []
-            for level in verticalOrders[key]:
+            for level in sorted(verticalOrders[key].keys()):
                 verticalOrders[key][level].sort()
                 vl.extend(verticalOrders[key][level])
             output.append(vl)
@@ -36,7 +36,7 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    tree = Tree.createTree([0,8,1,null,null,3,2,null,4,5,null,null,7,6])
+    tree = Tree.createTree([0, 8, 1, null, null, 3, 2, null, 4, 5, null, null, 7, 6])
     Tree.print(tree)
     output = solution.verticalTraversal(tree)
     print(output)

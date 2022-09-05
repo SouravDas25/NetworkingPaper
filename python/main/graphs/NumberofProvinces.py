@@ -25,10 +25,10 @@ class Solution:
                     if p1 != p2:
                         if rank[p1] < rank[p2]:
                             parent[p2] = p1
-                            rank[p2] += 1
+                            rank[p1] += 1
                         else:
                             parent[p1] = p2
-                            rank[p1] += 1
+                            rank[p2] += 1
 
         for i in range(len(isConnected)):
             p = self.find(i, parent)
