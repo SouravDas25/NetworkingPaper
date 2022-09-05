@@ -12,7 +12,10 @@ class MaxHeapObj(object):
         return self.val == other.val
 
     def __str__(self):
-        return str(self.val)
+        return self.val.__str__()
+
+    def __repr__(self):
+        return self.val.__repr__()
 
 
 class MinHeap(object):
@@ -48,6 +51,12 @@ class MaxHeap(MinHeap):
     def pop(self): return heapq.heappop(self.h).val
 
     def __getitem__(self, i): return self.h[i].val
+
+    def __repr__(self):
+        return self.h.__repr__()
+
+    def __str__(self):
+        return self.h.__str__()
 
     @staticmethod
     def heapify(iterable):
