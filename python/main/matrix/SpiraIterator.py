@@ -34,16 +34,15 @@ class SpiralIterator:
     def next(self) -> Tuple[int, int]:
         if self.started:
             row, col = self.current
-
-            if row == self.firstRowIndex() + 1 and col == self.firstColumnIndex() or \
+            if self.lengths[1] == 1:
+                self.current = self.current[0] + 1, self.current[1]
+            elif self.lengths[0] == 1:
+                self.current = self.current[0], self.current[1] + 1
+            elif row == self.firstRowIndex() + 1 and col == self.firstColumnIndex() or \
                     self.firstRowIndex() == self.lastRowIndex() and col == self.lastColumnIndex():
                 self.starts = self.starts[0] + 1, self.starts[1] + 1
                 self.lengths = self.lengths[0] - 2, self.lengths[1] - 2
                 self.current = self.starts[0], self.starts[1]
-            elif self.lengths[1] == 1:
-                self.current = self.current[0] + 1, self.current[1]
-            elif self.lengths[0] == 1:
-                self.current = self.current[0], self.current[1] + 1
             elif row == self.firstRowIndex() and self.firstColumnIndex() <= col < self.lastColumnIndex():
                 self.current = self.current[0], self.current[1] + 1
             elif col == self.lastColumnIndex() and self.firstRowIndex() <= row < self.lastRowIndex():
@@ -52,7 +51,7 @@ class SpiralIterator:
                 self.current = self.current[0], self.current[1] - 1
             elif col == self.firstColumnIndex() and self.firstRowIndex() < row <= self.lastRowIndex():
                 self.current = self.current[0] - 1, self.current[1]
-            print((row, col), self.current)
+            # print((row, col), self.current)
         else:
             self.started = True
         self.accessItems += 1
@@ -60,8 +59,8 @@ class SpiralIterator:
 
 
 if __name__ == "__main__":
-    row = 10
-    col = 1
+    row = 5
+    col = 4
     matrix = [[0] * col for _ in range(row)]
     count = 1
     itr = SpiralIterator(row, col)
