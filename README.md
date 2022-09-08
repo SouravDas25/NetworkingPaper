@@ -25,6 +25,9 @@ Data Structure & Algorithms
 - Graph
   - Adj List
   - Matrix
+  - Cycle Detection
+    - Directed 
+    - Undirected 
   - BFS
     - Bi-directional BFS
     - Normal BFS
