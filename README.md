@@ -36,6 +36,9 @@ Data Structure & Algorithms
     - Heap BFS 
       - pick min weight of graph
   - DFS
+  - Union Find
+    - find disconnected graphs
+    - find parent of each nodes with ranking
   - Minimal Spanning Tree
   -  
 ### Recursion/backtracking
