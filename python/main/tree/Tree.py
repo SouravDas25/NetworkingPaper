@@ -47,9 +47,14 @@ class Tree:
 
 def printNode(prefix, node, isLeft):
     if node is not None:
-        print(prefix + ("|-- " if isLeft else "+-- ") + str(node.val))
+        print(prefix + ("L-- " if isLeft else "R-- ") + str(node.val))
         printNode(prefix + ("|   " if isLeft else "    "), node.left, True)
         printNode(prefix + ("|   " if isLeft else "    "), node.right, False)
 
 
 null = None
+
+if __name__ == "__main__":
+    tree = Tree.createTree(
+        [5, 4, 5, 4, 4, 5, 3, 4, 4, null, null, null, 4, null, null, 4, null, null, 4, null, 4, 4, null, null, 4, 4])
+    Tree.print(tree)

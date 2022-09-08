@@ -1,40 +1,61 @@
 from collections import deque
-from typing import List
+from typing import List, Dict, Tuple
 
 
 class Solution:
 
-    def snakesAndLadders(self, board: List[List[int]]) -> int:
-        nb = {}
+    def solve(self, board: Dict[int, int]):
+        visited = set()
+        queue = deque([(0, 1)])
+        while len(queue) > 0:
+            size = len(queue)
+            for _ in range(size):
+                moves, position = queue.popleft()
+                if position == len(board):
+                    return moves
+                for i in range(1, 7):
+                    if position + i not in board:
+                        continue
+                    nextPosition = board[position + i]
+                    if nextPosition not in visited:
+                        queue.append((moves + 1, nextPosition))
+                        visited.add(nextPosition)
+                    if nextPosition == len(board):
+                        return moves + 1
+        return -1
+
+    def buildBoard(self, boardSize: int, ladders: List[Tuple[int, int]], snakes: List[Tuple[int, int]]):
+        board = {i: i for i in range(1, boardSize + 1)}
+        for ladder in ladders:
+            board[ladder[0]] = ladder[1]
+        for snakes in snakes:
+            board[snakes[0]] = snakes[1]
+        return board
+
+    def buildBoard2(self, inputBoard: List[List[int]]):
+        board = {}
         count = 1
         flag = True
-        for i in range(len(board) - 1, -1, -1):
+        for i in range(len(inputBoard) - 1, -1, -1):
             if flag:
-                for j in range(len(board[i])):
-                    nb[count] = count if board[i][j] == -1 else board[i][j]
+                for j in range(len(inputBoard[i])):
+                    board[count] = count if inputBoard[i][j] == -1 else inputBoard[i][j]
                     count += 1
             else:
-                for j in range(len(board[i]) - 1, -1, -1):
-                    nb[count] = count if board[i][j] == -1 else board[i][j]
+                for j in range(len(inputBoard[i]) - 1, -1, -1):
+                    board[count] = count if inputBoard[i][j] == -1 else inputBoard[i][j]
                     count += 1
             flag = not flag
-        board = nb
-        print(board)
-        cache = {1: 0}
-        queue = deque([(0, 1)])
-        MM = float("inf")
-        while len(queue) > 0:
-            moves, position = queue.popleft()
-            for i in range(1, 7):
-                if position + i not in board:
-                    continue
-                nextPosition = board[position + i]
-                if nextPosition not in cache or cache[nextPosition] > moves + 1:
-                    queue.append((moves + 1, nextPosition))
-                    cache[nextPosition] = moves + 1
-                if nextPosition == len(board):
-                    MM = min(MM, moves + 1)
-        return -1 if MM == float("inf") else MM
+        return board
+
+    def snakeLadder(self, A, B):
+        board = self.buildBoard(100, A, B)
+        return self.solve(board)
+
+    def snakesAndLadders(self, board: List[List[int]]) -> int:
+        board = self.buildBoard2(board)
+        return self.solve(board)
+        # print(board)
 
 
 if __name__ == "__main__":
@@ -58,4 +79,16 @@ if __name__ == "__main__":
          [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
          [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]]
     )
+    print(minMoves)
+    ladders = [[32, 62],
+               [42, 68],
+               [12, 98]]
+    snakes = [[95, 13],
+              [97, 25],
+              [93, 37],
+              [79, 27],
+              [75, 19],
+              [49, 47],
+              [67, 17]]
+    minMoves = s.snakeLadder(ladders, snakes)
     print(minMoves)
