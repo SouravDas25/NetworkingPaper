@@ -27,6 +27,7 @@ Data Structure & Algorithms
   - Matrix
   - Cycle Detection
     - Directed 
+      - use dfs with global and local visited set,  
     - Undirected 
       - use Union Find // union find only works with undirected
   - BFS
@@ -40,7 +41,7 @@ Data Structure & Algorithms
     - find disconnected graphs
     - find parent of each nodes with ranking
   - Minimal Spanning Tree
-  -  
+  -  Topological Sort
 ### Recursion/backtracking
 - Greedy
 - Dynamic Programming
