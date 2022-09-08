@@ -4,11 +4,11 @@
 Data Structure & Algorithms
 ==============================
 
-- Arrays
-- LinkedList
-- Stack
-- Queue
-- Trees
+### Arrays
+### LinkedList
+### Stack
+### Queue
+### Trees
   - DFS 
     - InOrder 
       - keeping answer in global variable
@@ -22,20 +22,23 @@ Data Structure & Algorithms
     - Zig Zag
     - Left side view/ Right Side View
   - 
-- Graph
+### Graph
   - Adj List
   - Matrix
   - Cycle Detection
     - Directed 
     - Undirected 
+      - use Union Find // union find only works with undirected
   - BFS
     - Bi-directional BFS
     - Normal BFS
-    - Heap BFS
+      - use queue 
+    - Heap BFS 
+      - pick min weight of graph
   - DFS
   - Minimal Spanning Tree
   -  
-- Recursion/backtracking
+### Recursion/backtracking
 - Greedy
 - Dynamic Programming
 - 
