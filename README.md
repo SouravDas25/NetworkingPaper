@@ -27,60 +27,34 @@ Data Structure & Algorithms
   - Matrix
   - Cycle Detection
     - Directed 
-      - use DFS with global and local visited set,  
+      - use DFS with global and local visited set, 
+      - [Cycle In Directed Graph](python/main/graphs/CycleDirectedGraph.py)
     - Undirected 
       - use Union Find // union find only works with undirected
+      - [Cycle In Undirected Graph](python/main/graphs/CycleUndirectedGraph.py)
   - BFS
     - Bi-directional BFS
     - Normal BFS
       - use queue 
     - Heap BFS 
       - pick min weight of graph
+      - [Commutable Island](python/main/graphs/CommutableIslands.py)
   - DFS
     - iterative DFS with stack
+      - [Cycle In Directed Graph](python/main/graphs/CycleDirectedGraph.py)
     - use recursion for normal, use global and local visited set
+      - [Course Schedule](python/main/graphs/CourseSchedule.py)
   - Union Find
     - find disconnected graphs
+      - [Number Of Provinces](python/main/graphs/NumberofProvinces.py)
     - find parent of each nodes with ranking
+      - [Cycle In Undirected Graph](python/main/graphs/CycleUndirectedGraph.py)
   - Minimal Spanning Tree
     - do bfs for minimum using heap, instead of queue
+      - [Commutable Island](python/main/graphs/CommutableIslands.py)
   - Topological Sort
     - use dfs and the reverse the traversed list
+      - [Course Schedule](python/main/graphs/CourseSchedule.py)
 ### Recursion/backtracking
 - Greedy
 - Dynamic Programming
-
-
-#### Union Find
-
-Cycle Detection in Undirected Graph
-```python
-class Solution:
-
-    def find(self, n, parent):
-        while parent[n] != n:
-            parent[n] = parent[parent[n]]
-            n = parent[n]
-        return parent[n]
-
-    def solve(self, n, edges):
-        parent = {}
-        rank = {}
-        for i in range(1, n + 1):
-            parent[i] = i
-            rank[i] = 1
-
-        for e1, e2 in edges:
-            p1 = self.find(e1, parent)
-            p2 = self.find(e2, parent)
-            if p1 != p2:
-                if rank[p1] < rank[p2]:
-                    parent[p2] = p1
-                    rank[p1] += 1
-                else:
-                    parent[p1] = p2
-                    rank[p2] += 1
-            else:
-                return 1
-        return 0
-```
