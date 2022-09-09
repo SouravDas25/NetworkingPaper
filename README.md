@@ -27,7 +27,7 @@ Data Structure & Algorithms
   - Matrix
   - Cycle Detection
     - Directed 
-      - use dfs with global and local visited set,  
+      - use DFS with global and local visited set,  
     - Undirected 
       - use Union Find // union find only works with undirected
   - BFS
@@ -37,6 +37,7 @@ Data Structure & Algorithms
     - Heap BFS 
       - pick min weight of graph
   - DFS
+    - iterative DFS with stack
   - Union Find
     - find disconnected graphs
     - find parent of each nodes with ranking
