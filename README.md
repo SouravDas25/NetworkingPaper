@@ -38,6 +38,7 @@ Data Structure & Algorithms
       - pick min weight of graph
   - DFS
     - iterative DFS with stack
+    - use recursion for normal, use global and local visited set
   - Union Find
     - find disconnected graphs
     - find parent of each nodes with ranking
