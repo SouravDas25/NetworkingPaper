@@ -41,7 +41,9 @@ Data Structure & Algorithms
     - find disconnected graphs
     - find parent of each nodes with ranking
   - Minimal Spanning Tree
-  -  Topological Sort
+    - do bfs for minimum using heap, instead of queue
+  - Topological Sort
+    - use dfs and the reverse the traversed list
 ### Recursion/backtracking
 - Greedy
 - Dynamic Programming
