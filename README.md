@@ -68,5 +68,6 @@ Data Structure & Algorithms
     - use dfs and the reverse the traversed list
       - [Course Schedule](python/main/graphs/CourseSchedule.py)
 ### Recursion/backtracking
-- Greedy
-- Dynamic Programming
+### Greedy
+
+### Dynamic Programming
