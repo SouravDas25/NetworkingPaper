@@ -1,5 +1,3 @@
-# NetworkingPaper
-
 Data Structure & Algorithms
 ==============================
 
@@ -25,20 +23,34 @@ Data Structure & Algorithms
 ### Queue
 
 ### Trees
-
+- Property of tree
+  - [Maximum Edge Removal](python/main/tree/MaximumEdgeRemoval.py)
 - DFS
     - InOrder
         - keeping answer in global variable
-        -
+        - traverse 2 trees together
+          - [merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/)
     - PreOrder
     - PostOrder
-    - Vertical Order
-    -
+    - Vertical Order Traversal
+        - [Vertical Sum Of Binary Tree](python/main/tree/VerticalSumOfBinaryTree.py)
+    - Level Order Traversal
+      - (Cousins In Binary Tree)[python/main/tree/CousinsBinaryTree.py]
+    - Diagonal Order Traversal
+      - [diagonal-traversal](https://www.interviewbit.com/problems/diagonal-traversal/)
 - BFS
-    - Level Order
-    - Zig Zag
-    - Left side view/ Right Side View
--
+    - Level Order Traversal
+        - Left and Right Side View of the tree
+            - [Cover and Uncover Nodes](python/main/tree/CoveredUncoveredNodes.py)
+        - Level Zig Zag Traversal
+    -
+- DFS + BFS
+    - Parent + Children Traversal
+        - [All Nodes Distance K in Binary Tree](python/main/tree/AllNodesDistanceKBinaryTree.py)
+
+- DP Solution 
+  - Callan Number
+    - [Unique Binary Search Trees](python/main/tree/UniqueBinarySearchTrees.py)
 
 ### Graph
 
@@ -75,7 +87,6 @@ Data Structure & Algorithms
     - use dfs and the reverse the traversed list
         - [Course Schedule](python/main/graphs/CourseSchedule.py)
     - All topological sorts of a Directed Acyclic Graph
-    
 
 ### Recursion/backtracking
 
