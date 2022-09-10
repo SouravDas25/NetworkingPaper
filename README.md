@@ -5,6 +5,11 @@ Data Structure & Algorithms
 ==============================
 
 ### Arrays
+  - Suffix & Prefix Array, sum or product
+  - sum or product except self
+    - total = sum(array), for each item, subtract that from total 
+    - total = product(array), for each item, divide that from total 
+  - 
 ### LinkedList
 ### Stack
 ### Queue
