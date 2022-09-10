@@ -7,7 +7,7 @@ Data Structure & Algorithms
 ### Arrays
   - Suffix & Prefix Array, sum or product
     - Suffix Arrays with cache
-      - [Sub-Array Sum With K](https://leetcode.com/problems/subarray-sum-equals-k/submissions/)
+      - [Sub-Array Sum With K](https://leetcode.com/problems/subarray-sum-equals-k/)
   - sum or product except self
     - total = sum(array), for each item, subtract that from total 
     - total = product(array), for each item, divide that from total 
@@ -15,6 +15,7 @@ Data Structure & Algorithms
   - sliding Window
     - if continous sub-array is asked,
     - sliding window does not work with negative no
+    - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
   - pre
 ### LinkedList
 ### Stack
