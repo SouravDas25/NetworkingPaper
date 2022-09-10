@@ -35,7 +35,7 @@ Data Structure & Algorithms
     - Vertical Order Traversal
         - [Vertical Sum Of Binary Tree](python/main/tree/VerticalSumOfBinaryTree.py)
     - Level Order Traversal
-      - (Cousins In Binary Tree)[python/main/tree/CousinsBinaryTree.py]
+      - [Cousins In Binary Tree](python/main/tree/CousinsBinaryTree.py)
     - Diagonal Order Traversal
       - [diagonal-traversal](https://www.interviewbit.com/problems/diagonal-traversal/)
 - BFS
