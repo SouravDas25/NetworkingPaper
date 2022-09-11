@@ -90,8 +90,26 @@ Data Structure & Algorithms
 
 ### Recursion/backtracking
 
+- Memoization
+  - [best-time-to-buy-and-sell-stock-iv](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
+  - [best-time-to-buy-and-sell-stock-ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+
 ### Greedy
+
+- Greedy with single Array Traversal
+  - [valid-parenthesis-string](https://leetcode.com/problems/valid-parenthesis-string/)
+- Reverse traversal of Array, with cache
+  - [jump-game II](https://leetcode.com/problems/jump-game-ii/)
+- use min heap to take greedy decision
+  - [merge-triplets-to-form-target-triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)
 
 - [Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
 
 ### Dynamic Programming
+- Constant Space DP
+  - [climbing-stairs](https://leetcode.com/problems/climbing-stairs/)
+- 1D Dp
+  - Simple Array DP
+    - [longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+    - [Unique Binary Search Trees](python/main/tree/UniqueBinarySearchTrees.py)
+- 2D Dp
