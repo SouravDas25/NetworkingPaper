@@ -113,3 +113,13 @@ Data Structure & Algorithms
     - [longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
     - [Unique Binary Search Trees](python/main/tree/UniqueBinarySearchTrees.py)
 - 2D Dp
+
+- Knapsack 0/1
+  - Subset Sum Problem
+  - Equal Sum Partition problem
+  - Target Sum
+- Knapsack Unbounded
+- Longest Common Subsequence
+- Egg Dropping Problem
+- DP with Grid — Unique Paths
+- Dp with Strings
