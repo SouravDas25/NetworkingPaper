@@ -24,11 +24,11 @@ class Solution:
                 else:
                     dp[i + 1][amount] = dp[i][amount] or dp[i][amount - nums[i]]
 
-        # print(numpy.matrix(dp))
+        print(numpy.matrix(dp))
         return dp[len(nums)][target]
 
 
 if __name__ == "__main__":
     solution = Solution()
-    output = solution.canPartition([1, 5, 3])
+    output = solution.canPartition([1, 5, 5, 11])
     print(output)

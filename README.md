@@ -11,7 +11,7 @@ Data Structure & Algorithms
     - total = product(array), for each item, divide that from total
         - track division by zero
 - sliding Window
-    - if continous sub-array is asked,
+    - if continuous sub-array is asked,
     - sliding window does not work with negative no
     - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - pre
