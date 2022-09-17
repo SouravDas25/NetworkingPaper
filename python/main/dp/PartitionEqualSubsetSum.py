@@ -9,7 +9,7 @@ class Solution:
         if target % 2 == 1:
             return False
         target = target // 2
-        # print(target)
+        print(target)
         dp = [[False] * (target + 1) for _ in range(len(nums) + 1)]
 
         dp[0][0] = True
@@ -25,10 +25,21 @@ class Solution:
                     dp[i + 1][amount] = dp[i][amount] or dp[i][amount - nums[i]]
 
         print(numpy.matrix(dp))
+
+        if dp[len(nums)][target]:
+            output = []
+            t = target
+            for i in range(len(nums) - 1, -1, -1):
+                if dp[i + 1][t] == dp[i][t]:
+                    continue
+                output.append(nums[i])
+                t -= nums[i]
+            print(list(reversed(output)))
+
         return dp[len(nums)][target]
 
 
 if __name__ == "__main__":
     solution = Solution()
-    output = solution.canPartition([1, 5, 5, 11])
+    output = solution.canPartition([1, 2, 3, 5, 7])
     print(output)
