@@ -3,21 +3,22 @@ import pandas
 
 
 class Solution:
+    def isPalindrome(self, s, begin, end):
+        return s[begin:end + 1] == s[begin:end + 1][::-1]
+
     def minCut(self, s: str) -> int:
-        dp = [[0] * len(s) for _ in range(len(s))]
-
+        dp = [float("inf")] * (len(s) + 1)
+        dp[-1] = -1
         for i in range(len(s) - 1, -1, -1):
-            for j in range(i + 1, len(s)):
-                if s[i] == s[j] and dp[i + 1][j - 1] == 0:
-                    dp[i][j] = 0
-                else:
-                    dp[i][j] = min(dp[i][j - 1], dp[i + 1][j]) + 1
+            for j in range(len(s) - 1, i - 1, -1):
+                if self.isPalindrome(s, i, j):
+                    dp[i] = min(dp[i], dp[j + 1] + 1)
 
-        print(pandas.DataFrame(dp, columns=list(s), index=list(s)))
-        return dp[0][len(s) - 1]
+        print(np.matrix(dp))
+        return dp[0]
 
 
 if __name__ == "__main__":
     solution = Solution()
-    output = solution.minCut("cabababcbc")
+    output = solution.minCut("aab")
     print(output)

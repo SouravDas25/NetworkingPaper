@@ -1,32 +1,35 @@
 # https://www.interviewbit.com/problems/arrange-ii/
+import numpy as np
+
 
 class Solution:
 
-    def arrange(self, horses: str, k: int):
+    def arrange(self, horses: str, stables: int):
+        dp = [[float("inf")] * (len(horses) + 1) for _ in range(stables)]
 
-        def recursion(i, current, k):
-            if k <= 0:
-                # print(i, current)
-                if i == len(horses):
-                    return current
-                return float("inf")
-            whc = bhc = 0
-            minSum = float("inf")
-            for j in range(i, len(horses)):
-                if horses[j] == "W":
-                    whc += 1
-                else:
-                    bhc += 1
-                s = recursion(j + 1, current + whc * bhc, k - 1)
-                minSum = min(minSum, s)
-            return minSum
+        whc = bhc = 0
+        for j in range(len(horses) - 1, -1, -1):
+            if horses[j] == "W":
+                whc += 1
+            else:
+                bhc += 1
+            dp[-1][j] = whc * bhc
 
-        minc = recursion(0, 0, k)
-        return -1 if minc == float("inf") else minc
-        pass
+        for i in range(stables - 2, -1, -1):
+            for j in range(len(horses) - 1, -1, -1):
+                whc = bhc = 0
+                for k in range(j, len(horses)):
+                    if horses[k] == "W":
+                        whc += 1
+                    else:
+                        bhc += 1
+                    dp[i][j] = min(dp[i][j], whc * bhc + dp[i + 1][k + 1])
+
+        print(np.matrix(dp))
+        return dp[0][0]
 
 
 if __name__ == "__main__":
     solution = Solution()
-    output = solution.arrange("WWWB", 1)
+    output = solution.arrange("WWBWWWBB", 2)
     print(output)

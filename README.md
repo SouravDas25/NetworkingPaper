@@ -22,6 +22,8 @@ Data Structure & Algorithms
 
 ### Queue
 
+### Heap
+
 ### Trees
 
 - Property of tree
@@ -132,7 +134,7 @@ Data Structure & Algorithms
 - Egg Dropping Problem
     - Matrix Chain Multiplication
     - [Word Break](https://leetcode.com/problems/word-break/)
-    - Palindromic Partitioning
+    - [Palindromic Partitioning](https://leetcode.com/problems/palindrome-partitioning-ii/)
 - DP with Grid — Unique Paths
 - DP with Strings
 - DP with bit-masking
