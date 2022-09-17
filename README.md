@@ -14,7 +14,13 @@ Data Structure & Algorithms
     - if continuous sub-array is asked,
     - sliding window does not work with negative no
     - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
-- pre
+- O(n) important Algorithms
+    - [Maximum Absolute Difference](python/main/arrays/MaximumAbsoluteDifference.py)
+    - [Majority Element](https://leetcode.com/problems/majority-element/)
+- Cyclic Sort
+    - [first-missing-positive](https://leetcode.com/problems/first-missing-positive/)
+- String Sort
+    - [largest-number](https://leetcode.com/problems/largest-number/)
 
 ### LinkedList
 
@@ -106,7 +112,7 @@ Data Structure & Algorithms
 - use min heap to take greedy decision
     - [merge-triplets-to-form-target-triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)
 
-- [Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
+- # [Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
 
 ### Dynamic Programming
 
