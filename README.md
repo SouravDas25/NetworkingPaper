@@ -36,8 +36,18 @@ Data Structure & Algorithms
 ### LinkedList
 
 - Traversal
-  - Reverse linked List
-  - Middle Of linked List
+    - Reverse linked List
+        - [reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii/)
+    - Middle Of linked List
+        - [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+    - Traversal in Groups
+        - [reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+- Partition Linked List on some Condition
+    - sort binary linked list
+    - bucket sort
+- Cycle
+    - Detect Cycle
+    - Find Cycle Point
 
 ### Stack
 
