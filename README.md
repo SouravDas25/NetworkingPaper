@@ -10,10 +10,11 @@ Data Structure & Algorithms
     - total = sum(array), for each item, subtract that from total
     - total = product(array), for each item, divide that from total
         - track division by zero
-- sliding Window
+- Sliding Window
     - if continuous sub-array is asked,
     - sliding window does not work with negative no
     - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+    - Longest Substring Without Repeating Character
 - O(n) important Algorithms
     - [Maximum Absolute Difference](python/main/arrays/MaximumAbsoluteDifference.py)
     - [Majority Element](https://leetcode.com/problems/majority-element/)
@@ -24,13 +25,52 @@ Data Structure & Algorithms
 - String Sort
     - [largest-number](https://leetcode.com/problems/largest-number/)
 
+## Binary Search
+
+- Matrix Search
+- Median of 2 sorted Array
+- Search in Rotated Array
+- Median of N Sorted Array
+-
+
 ### LinkedList
+
+- Traversal
+  - Reverse linked List
+  - Middle Of linked List
 
 ### Stack
 
+- Balance Parenthesis
+    - [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
+    - [valid-parenthesis-string](https://leetcode.com/problems/valid-parenthesis-string/)
+- Tracking Previous Result
+    - [largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+    - [maximal-rectangle](https://leetcode.com/problems/maximal-rectangle/)
+    - [daily-temperatures](https://leetcode.com/problems/daily-temperatures/)
+- Advance Stack
+    - Min Stack
+    - Max Stack
+- Infix 2 PostFix
+- Expression Evaluation
+    - [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
+
 ### Queue
 
-### Heap
+### Heap, Maps & Hashing
+
+- K or Kth Largest / Smallest Element
+    - k largest element
+- min and max Heap Combination
+    - Median of Input Stream
+- Caches
+    - LRU Cache
+    - LFU Cache
+    - LRU with Time to Live
+- Merge K Sorted List
+- Hashing
+    - Points on a Straight Line
+    - [fraction-to-recurring-decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)
 
 ### Trees
 
