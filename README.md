@@ -25,6 +25,11 @@ Data Structure & Algorithms
 - String Sort
     - [largest-number](https://leetcode.com/problems/largest-number/)
 
+- Two Pointer
+    - two pointer with sorted Array
+    - two pointer with sliding window
+    - remove duplicate from sorted Array
+
 ## Binary Search
 
 - Matrix Search
@@ -45,6 +50,8 @@ Data Structure & Algorithms
 - Partition Linked List on some Condition
     - sort binary linked list
     - bucket sort
+- Merge two Linked List
+    - Merge to sorted Linked List
 - Cycle
     - Detect Cycle
     - Find Cycle Point
@@ -65,7 +72,7 @@ Data Structure & Algorithms
 - Expression Evaluation
     - [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
 
-### Queue
+### Queue & Strings
 
 ### Heap, Maps & Hashing
 
