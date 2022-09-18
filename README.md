@@ -17,6 +17,8 @@ Data Structure & Algorithms
 - O(n) important Algorithms
     - [Maximum Absolute Difference](python/main/arrays/MaximumAbsoluteDifference.py)
     - [Majority Element](https://leetcode.com/problems/majority-element/)
+    - [next-permutation](https://leetcode.com/problems/next-permutation/)
+    - [Permutation Sequence](python/main/math/PermutationSequence.py)
 - Cyclic Sort
     - [first-missing-positive](https://leetcode.com/problems/first-missing-positive/)
 - String Sort
