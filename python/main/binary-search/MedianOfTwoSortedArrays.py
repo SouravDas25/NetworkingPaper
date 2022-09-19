@@ -36,8 +36,6 @@ class Solution:
                 high = mid2 - 1
         return 0
 
-        pass
-
 
 if __name__ == "__main__":
     solution = Solution()
