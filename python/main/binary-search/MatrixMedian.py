@@ -16,11 +16,15 @@ class Solution:
         desired = (totalCount + 1) // 2
 
         while mi < ma:
-            mid = (mi + ma) // 2
+            mid = (mi + ma) / 2
+
             lc = 0
             for i in range(len(matrix)):
                 j = bisect_right(matrix[i], mid)
                 lc += j
+            print(mi, ma, mid, lc)
+            if lc == desired:
+                return mid
             if lc < desired:
                 mi = mid + 1
             else:
@@ -31,6 +35,6 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    m = [[1, 3], [2], [1, 2, 3, 4, 5, 5, 6, 7]]
+    m = [[1, 2], [3, 4]]
     output = solution.findMedian(m)
     print(output)
