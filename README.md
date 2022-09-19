@@ -34,9 +34,10 @@ Data Structure & Algorithms
 
 - Matrix Search
 - Median of 2 sorted Array
+  - [Median Of Two Sorted Arrays](python/main/binary-search/MedianOfTwoSortedArrays.py)
 - Search in Rotated Array
 - Median of N Sorted Array
--
+- 
 
 ### LinkedList
 
