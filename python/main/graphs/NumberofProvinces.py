@@ -23,7 +23,7 @@ class Solution:
                     p1 = self.find(i, parent)
                     p2 = self.find(j, parent)
                     if p1 != p2:
-                        if rank[p1] < rank[p2]:
+                        if rank[p1] > rank[p2]:
                             parent[p2] = p1
                             rank[p1] += 1
                         else:
