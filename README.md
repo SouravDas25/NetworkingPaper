@@ -29,14 +29,17 @@ Data Structure & Algorithms
     - two pointer with sorted Array
     - two pointer with sliding window
     - remove duplicate from sorted Array
+    - Two Pointer to compare two list of intervals
+      - [interval-list-intersections](https://leetcode.com/problems/interval-list-intersections/)
 
 ## Binary Search
 
 - Matrix Search
 - Median of 2 sorted Array
+  - [Median Of Two Sorted Arrays](python/main/binary-search/MedianOfTwoSortedArrays.py)
 - Search in Rotated Array
 - Median of N Sorted Array
--
+- 
 
 ### LinkedList
 
