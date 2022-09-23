@@ -1,6 +1,3 @@
-
-
-
 class MinStack:
 
     def __init__(self):
@@ -27,7 +24,6 @@ class MinStack:
 
     def getMin(self):
         return self.min[-1]
-
 
 
 stack = MinStack()
