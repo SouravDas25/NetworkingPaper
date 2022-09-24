@@ -73,7 +73,7 @@ class Heap:
 
 class PriorityQueue:
 
-    def __init__(self, comparator: Callable[[Comparable, Comparable], int] = naturalOrder,
+    def __init__(self, comparator: Callable[[Comparable, Comparable], int],
                  iterable: List[Comparable] = None):
         self.comparator = comparator
         self.heap = [] if iterable is None else iterable

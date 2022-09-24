@@ -1,14 +1,14 @@
 import functools
 import random
 
-from main.heap.heaps import Heap, PriorityQueue
+from main.heap.heaps import PriorityQueue
 from main.lambdas.comparators import naturalOrder, reverseOrder
 
 
 class Solution:
 
     def heapsort(self, list):
-        minHeap = PriorityQueue(reverseOrder(naturalOrder))
+        minHeap = PriorityQueue(naturalOrder)
         for i in range(len(list)):
             minHeap.insert(list[i])
         print(minHeap)
