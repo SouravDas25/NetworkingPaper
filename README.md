@@ -30,16 +30,16 @@ Data Structure & Algorithms
     - two pointer with sliding window
     - remove duplicate from sorted Array
     - Two Pointer to compare two list of intervals
-      - [interval-list-intersections](https://leetcode.com/problems/interval-list-intersections/)
+        - [interval-list-intersections](https://leetcode.com/problems/interval-list-intersections/)
 
 ## Binary Search
 
 - Matrix Search
 - Median of 2 sorted Array
-  - [Median Of Two Sorted Arrays](python/main/binary-search/MedianOfTwoSortedArrays.py)
+    - [Median Of Two Sorted Arrays](python/main/binary-search/MedianOfTwoSortedArrays.py)
 - Search in Rotated Array
 - Median of N Sorted Array
-- 
+-
 
 ### LinkedList
 
@@ -158,6 +158,10 @@ Data Structure & Algorithms
     - use dfs and the reverse the traversed list
         - [Course Schedule](python/main/graphs/CourseSchedule.py)
     - All topological sorts of a Directed Acyclic Graph
+
+- In/Out Degree of Graph
+    - count the incoming connections and outgoing connections in each node
+        - [minimum-number-of-vertices-to-reach-all-nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
 ### Recursion/backtracking
 
