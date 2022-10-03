@@ -1,4 +1,4 @@
-from typing import List, Callable, Deque
+from typing import List, Callable
 
 from main.lambdas.comparators import Comparable, naturalOrder
 
@@ -76,20 +76,26 @@ class PriorityQueue:
     def __init__(self, comparator: Callable[[Comparable, Comparable], int],
                  iterable: List[Comparable] = None):
         self.comparator = comparator
-        self.heap = [] if iterable is None else iterable
-        Heap.heapify(self.heap, self.comparator)
+        self.__heap = [] if iterable is None else iterable
+        Heap.heapify(self.__heap, self.comparator)
 
     def pop(self) -> Comparable:
-        return Heap.pop(self.heap, self.comparator)
+        return Heap.pop(self.__heap, self.comparator)
 
     def insert(self, value):
-        Heap.insert(self.heap, value, self.comparator)
+        Heap.insert(self.__heap, value, self.comparator)
 
     def __len__(self):
-        return self.heap.__len__()
+        return self.__heap.__len__()
 
     def __str__(self):
-        return self.heap.__str__()
+        return self.__heap.__str__()
 
     def __repr__(self):
-        return self.heap.__repr__()
+        return self.__heap.__repr__()
+
+    def clear(self):
+        self.__heap.clear()
+
+    def asList(self):
+        return self.__heap
