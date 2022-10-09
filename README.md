@@ -210,3 +210,12 @@ Data Structure & Algorithms
 - DP with Grid — Unique Paths
 - DP with Strings
 - DP with bit-masking
+
+Advance Data Structures
+- Fibonacci Heap
+- Splay Trees
+- Dynamic graph data structures
+
+
+Augmenting Data Structures
+- Order statistics
