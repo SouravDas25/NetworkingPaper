@@ -55,6 +55,7 @@ class SegmentTree:
 
     def update(self, index, value):
         self.__update(index, value)
+        self.elements[index] = value
 
     def __reduce(self, lo, hi, low, high, node, reductionLambda):
         mid = low + (high - low) // 2
@@ -64,8 +65,8 @@ class SegmentTree:
             return reductionLambda["LOOB"]()
         if low == lo and high == hi:
             return reductionLambda["EXACT"](self.tree[node])
-        left = self.__reduce(lo, min(mid, hi), low, mid, node * 2 + 1, reductionLambda)
-        right = self.__reduce(max(mid + 1, lo), hi, mid + 1, high, node * 2 + 2, reductionLambda)
+        left = self.__reduce(max(lo, low), min(mid, hi), low, mid, node * 2 + 1, reductionLambda)
+        right = self.__reduce(max(mid + 1, lo), min(hi, high), mid + 1, high, node * 2 + 2, reductionLambda)
         return reductionLambda["REDUCE"](left, right)
 
     def reduce(self, lo, hi, reductionLambda):
@@ -111,8 +112,16 @@ class SegmentTree:
 
 
 if __name__ == "__main__":
-    segmentTree = SegmentTree([1, 2, 3, 4, 5, 6, 7, 8])
-    # segmentTree.update(3, 9)
-    print(segmentTree.max(3, 5))
-    print(segmentTree.tree)
+    segmentTree = SegmentTree([7, 2, 7, 2, 0])
+    segmentTree.update(4, 6)
+    segmentTree.update(0, 2)
+    segmentTree.update(0, 9)
+    print(segmentTree.sum(4, 4))
+    segmentTree.update(3, 8)
+    print(segmentTree.sum(0, 4))
+    segmentTree.print()
+    segmentTree.update(4, 1)
+    print(segmentTree.sum(0, 3))
+    print(segmentTree.sum(0, 4))
+    segmentTree.update(0, 4)
     segmentTree.print()
