@@ -211,11 +211,13 @@ Data Structure & Algorithms
 - DP with Strings
 - DP with bit-masking
 
-Advance Data Structures
+### Advance Data Structures
 - Fibonacci Heap
 - Splay Trees
 - Dynamic graph data structures
 
 
-Augmenting Data Structures
+### Augmenting Data Structures
 - Order statistics
+    - Find i-th smallest element in O(n) & O(log n) time
+    - 
