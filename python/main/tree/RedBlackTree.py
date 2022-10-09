@@ -9,7 +9,7 @@ class Node():
 
 
 # Define R-B Tree
-class RedBlackTree():
+class RedBlackTree:
     def __init__(self):
         self.NULL = Node(0)
         self.NULL.color = 0

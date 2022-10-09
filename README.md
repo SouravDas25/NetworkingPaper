@@ -219,5 +219,11 @@ Data Structure & Algorithms
 
 ### Augmenting Data Structures
 - Order statistics
-    - Find i-th smallest element in O(n) & O(log n) time
-    - 
+    - Find ith smallest element
+    - Randomized Quick Sort Partitions with Divide & Conquer - O(n)
+    - Augmented Red Black Trees - O(log n) 
+- Interval Trees
+  - 
+- Segment Trees
+  - get SUM, MIN, MAX in O(log n) time
+  - 
