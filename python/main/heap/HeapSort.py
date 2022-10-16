@@ -10,7 +10,7 @@ class Solution:
     def heapsort(self, list):
         minHeap = PriorityQueue(naturalOrder)
         for i in range(len(list)):
-            minHeap.insert(list[i])
+            minHeap.push(list[i])
         print(minHeap)
         for i in range(len(list)):
             list[i] = minHeap.pop()

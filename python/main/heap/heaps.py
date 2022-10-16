@@ -82,7 +82,7 @@ class PriorityQueue:
     def pop(self) -> Comparable:
         return Heap.pop(self.__heap, self.comparator)
 
-    def insert(self, value):
+    def push(self, value):
         Heap.insert(self.__heap, value, self.comparator)
 
     def __len__(self):

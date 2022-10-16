@@ -163,6 +163,21 @@ Data Structure & Algorithms
     - count the incoming connections and outgoing connections in each node
         - [minimum-number-of-vertices-to-reach-all-nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
+- Strongly Connected Components
+    - Kosaraju's Algorithm
+        - reverse DFS
+        - [Strongly Connected Graphs](python/main/graphs/StronglyConnectedGraphs.py)
+
+- Single Source Shortest Path
+    - Bellman Fords Algorithm
+        - [Bellman Ford Algorithm](python/main/graphs/BellmanFordAlgorithm.py)
+    - Dijsktra Algorithm
+        - [Dijkstra Algorithm](python/main/graphs/DijkstraAlgorithm.py)
+
+- All Pair Shortest Path
+    - Floyd-Warshall Algorithm
+      - [Floyd Warshall Algorithm](python/main/graphs/FloydWarshallAlgorithm.py)
+
 ### Recursion/backtracking
 
 - Memoization
@@ -212,18 +227,20 @@ Data Structure & Algorithms
 - DP with bit-masking
 
 ### Advance Data Structures
+
 - Fibonacci Heap
 - Splay Trees
 - Dynamic graph data structures
 
-
 ### Augmenting Data Structures
+
 - Order statistics
-    - Find ith smallest element
+    - Find i'th smallest element
     - Randomized Quick Sort Partitions with Divide & Conquer - O(n)
-    - Augmented Red Black Trees - O(log n) 
+    - Augmented Red Black Trees - O(log n)
 - Interval Trees
-  - 
+    - find overlapping intervals in O(log n) time.
+    - augmented red black trees
 - Segment Trees
-  - get SUM, MIN, MAX in O(log n) time
-  - 
+    - get SUM, MIN, MAX in O(log n) time
+    - 
