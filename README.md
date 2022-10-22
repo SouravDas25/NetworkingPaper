@@ -176,7 +176,7 @@ Data Structure & Algorithms
 
 - All Pair Shortest Path
     - Floyd-Warshall Algorithm
-      - [Floyd Warshall Algorithm](python/main/graphs/FloydWarshallAlgorithm.py)
+        - [Floyd Warshall Algorithm](python/main/graphs/FloydWarshallAlgorithm.py)
 
 ### Recursion/backtracking
 
@@ -197,6 +197,8 @@ Data Structure & Algorithms
 
 ### Dynamic Programming
 
+- Find out the item used from the DP problem
+    - [Coin Change](python/main/dp/CoinChange.py)
 - Constant Space DP
     - [climbing-stairs](https://leetcode.com/problems/climbing-stairs/)
 - 1D Dp
@@ -225,6 +227,8 @@ Data Structure & Algorithms
 - DP with Grid — Unique Paths
 - DP with Strings
 - DP with bit-masking
+
+ALL DP Questions : [DP PROBLEMS](dp.md)
 
 ### Advance Data Structures
 

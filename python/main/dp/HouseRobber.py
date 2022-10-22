@@ -13,5 +13,5 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    isPossible = s.rob([2,7,9,3,1])
+    isPossible = s.rob([2, 7, 9, 3, 1])
     print(isPossible)
