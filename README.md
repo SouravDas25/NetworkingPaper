@@ -201,6 +201,9 @@ Data Structure & Algorithms
     - [Coin Change](python/main/dp/CoinChange.py)
 - Constant Space DP
     - [climbing-stairs](https://leetcode.com/problems/climbing-stairs/)
+    - Selecting Alternating items
+        - [house-robber](https://leetcode.com/problems/house-robber/)
+        - [delete-and-earn](https://leetcode.com/problems/delete-and-earn/)
 - 1D Dp
     - Simple Array DP
         - [longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
@@ -221,9 +224,10 @@ Data Structure & Algorithms
     - [Longest Common Subsequence](python/main/dp/LongestCommonSubsequence.py)
     - [Longest Palindromic Subsequence](python/main/dp/LongestPalindromicSubsequence.py)
 - Egg Dropping Problem
-    - Matrix Chain Multiplication
-    - [Word Break](https://leetcode.com/problems/word-break/)
-    - [Palindromic Partitioning](https://leetcode.com/problems/palindrome-partitioning-ii/)
+    - [Super Egg Drop](python/main/dp/SuperEggDrop.py)
+- Matrix Chain Multiplication
+- [Word Break](https://leetcode.com/problems/word-break/)
+- [Palindromic Partitioning](https://leetcode.com/problems/palindrome-partitioning-ii/)
 - DP with Grid — Unique Paths
 - DP with Strings
 - DP with bit-masking

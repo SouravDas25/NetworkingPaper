@@ -79,6 +79,9 @@ class PriorityQueue:
         self.__heap = [] if iterable is None else iterable
         Heap.heapify(self.__heap, self.comparator)
 
+    def heapify(self):
+        Heap.heapify(self.__heap, self.comparator)
+
     def pop(self) -> Comparable:
         return Heap.pop(self.__heap, self.comparator)
 
