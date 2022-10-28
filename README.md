@@ -15,6 +15,8 @@ Data Structure & Algorithms
     - sliding window does not work with negative no
     - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
     - Longest Substring Without Repeating Character
+    - https://leetcode.com/problems/continuous-subarray-sum
+    - 
 - O(n) important Algorithms
     - [Maximum Absolute Difference](python/main/arrays/MaximumAbsoluteDifference.py)
     - [Majority Element](https://leetcode.com/problems/majority-element/)
