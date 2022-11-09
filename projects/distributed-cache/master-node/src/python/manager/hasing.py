@@ -1,34 +1,11 @@
-class ConsistentHashing:
-
-    def __init__(self, size):
-        self.servePoints = []
-        self.servers = {}
-        self.size = size
-
-    def addServer(self, serverId):
-        serverIndex = hash(serverId) % self.size
-        self.servePoints.append((serverIndex, serverId))
-        self.servers[serverId] = serverIndex
-        self.servePoints.sort()
-
-    def removeServer(self, serverId):
-        serverIndex = self.servers[serverId]
-        self.servePoints.remove((serverIndex, serverId))
-        self.servePoints.sort()
-
-    def resolveServer(self, key):
-        keyIndex = hash(key) % self.size
-        for serverIndex, serverId in self.servePoints:
-            if keyIndex <= serverIndex:
-                return serverId
-        return self.servePoints[0][1]
+import hashlib
 
 
-if __name__ == "__main__":
-    ch = ConsistentHashing(1000)
-    ch.addServer("dataServer0")
-    ch.addServer("dataServer1")
-    # ch.removeServer("dataServer1")
-    print(ch.resolveServer("abcds"))
-    print(ch.resolveServer("gyh"))
-    print(ch.servePoints)
+def stableHash(key: str):
+    strbytes = bytes(key, "UTF-8")
+    m = hashlib.md5(strbytes)
+    return int(m.hexdigest(), base=16)
+
+
+def toCacheIndex(key: str, cacheSize: int):
+    return stableHash(key) % cacheSize
