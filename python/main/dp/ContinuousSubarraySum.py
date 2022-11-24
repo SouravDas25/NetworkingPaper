@@ -13,6 +13,7 @@ class Solution:
             # if the subarray size is at least two
             elif hash_map[s % k] < i:
                 return True
+            print(s, hash_map)
         return False
 
 

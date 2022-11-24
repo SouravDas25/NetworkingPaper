@@ -24,5 +24,5 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    output = solution.nextPermutation(list("19"))
+    output = solution.nextPermutation(list("123253"))
     print(output)

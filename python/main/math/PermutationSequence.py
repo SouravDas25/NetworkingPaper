@@ -16,9 +16,8 @@ class Solution:
         # select one element at a time
         for i in range(n):
             index, nk = self.findKthNum(nums, k)
-            output += str(nums[index])
+            output += str(nums.pop(index))
             # print(output, nums, nk)
-            del nums[index]
             k = nk
         return output
 
