@@ -1,9 +1,12 @@
 from typing import Optional, List
 
-from main.tree.Tree import TreeNode, Tree
+
 
 
 # https://leetcode.com/problems/unique-binary-search-trees-ii/
+from python.main.tree.Tree import TreeNode, Tree
+
+
 class Solution:
     def generateTrees(self, n: int) -> List[Optional[TreeNode]]:
         if n == 0:

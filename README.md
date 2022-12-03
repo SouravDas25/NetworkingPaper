@@ -16,7 +16,7 @@ Data Structure & Algorithms
     - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
     - Longest Substring Without Repeating Character
     - https://leetcode.com/problems/continuous-subarray-sum
-    - 
+    -
 - O(n) important Algorithms
     - [Maximum Absolute Difference](python/main/arrays/MaximumAbsoluteDifference.py)
     - [Majority Element](https://leetcode.com/problems/majority-element/)
@@ -120,6 +120,10 @@ Data Structure & Algorithms
 - DFS + BFS
     - Parent + Children Traversal
         - [All Nodes Distance K in Binary Tree](python/main/tree/AllNodesDistanceKBinaryTree.py)
+
+- Generate All Binary Trees
+    - [Unique Binary Search Trees](python/main/tree/UniqueBinarySearchTrees.py)
+    - [all-possible-full-binary-trees](https://leetcode.com/problems/all-possible-full-binary-trees/)
 
 - DP Solution
     - Callan Number
