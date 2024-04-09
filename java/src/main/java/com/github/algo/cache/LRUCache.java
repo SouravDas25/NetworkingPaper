@@ -29,7 +29,7 @@ public class LRUCache<K, V> {
 
     public void put(K key, V value) {
         if (maps.containsKey(key)) {
-            get(key);
+            moveKeyToLast(key);
             maps.put(key, value);
         } else {
             if (maps.size() >= capacity) {
