@@ -34,7 +34,7 @@ public class MajorityElementII {
                 ++count2;
             }
         }
-        List<Integer> result = new ArrayList<>();
+        List<Integer> result = new ArrayList<>(5);
         if (count1 > nums.length / 3) {
             result.add(ans1);
         }
