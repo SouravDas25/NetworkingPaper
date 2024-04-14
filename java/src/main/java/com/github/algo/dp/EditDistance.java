@@ -1,44 +1,31 @@
 package com.github.algo.dp;
 
-import java.util.*;
-import java.util.function.Function;
-import java.util.function.Predicate;
-
 public class EditDistance {
 
-    private Map<String, Integer> cache = new HashMap<>();
-    private String word1 = "";
-    private String word2 = "";
-
-    private int dfs(int i, int j) {
-        if (i >= word1.length()) {
-            return word2.length() - j;
+    public int minDistance(String fromWord, String toWord) {
+        int[][] dp = new int[toWord.length() + 1][fromWord.length() + 1];
+        dp[toWord.length()][fromWord.length()] = 0;
+        for (int i = toWord.length() - 1; i >= 0; i--) {
+            dp[i][fromWord.length()] = dp[i + 1][fromWord.length()] + 1;
         }
-        if (j >= this.word2.length()) {
-            return word1.length() - i;
+        for (int i = fromWord.length() - 1; i >= 0; i--) {
+            dp[toWord.length()][i] = dp[toWord.length()][i + 1] + 1;
         }
-        String key = String.format("%d,%d", i, j);
-        if (cache.containsKey(key)) {
-            return cache.get(key);
+        for (int i = toWord.length() - 1; i >= 0; i--) {
+            for (int j = fromWord.length() - 1; j >= 0; j--) {
+                if (toWord.charAt(i) == fromWord.charAt(j)) {
+                    dp[i][j] = dp[i + 1][j + 1];
+                } else {
+                    dp[i][j] = Math.min(
+                            Math.min(
+                                    dp[i + 1][j],
+                                    dp[i][j + 1]
+                            ),
+                            dp[i + 1][j + 1]
+                    ) + 1;
+                }
+            }
         }
-        int a;
-        if (word1.charAt(i) == word2.charAt(j)) {
-            a = dfs(i + 1, j + 1);
-        } else {
-            List<Integer> ans = new ArrayList<>();
-            ans.add(dfs(i + 1, j));
-            ans.add(dfs(i + 1, j + 1));
-            ans.add(dfs(i, j + 1));
-            a = Collections.min(ans) + 1;
-        }
-        cache.put(key, a);
-        return a;
+        return dp[0][0];
     }
-
-    public int minDistance(String word1, String word2) {
-        this.word1 = word1;
-        this.word2 = word2;
-        return dfs(0, 0);
-    }
-
 }

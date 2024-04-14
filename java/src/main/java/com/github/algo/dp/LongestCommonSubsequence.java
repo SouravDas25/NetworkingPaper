@@ -6,8 +6,6 @@ public class LongestCommonSubsequence {
 
     public int longestCommonSubsequence(String text1, String text2) {
         int[][] dp = new int[text2.length() + 1][text1.length() + 1];
-//        Arrays.stream(dp).forEach(a -> a[text2.length()] = 0);
-//        Arrays.fill(dp[text2.length()], 0);
         for (int i = text2.length() - 1; i >= 0; i--) {
             for (int j = text1.length() - 1; j >= 0; j--) {
                 if (text2.charAt(i) == text1.charAt(j)) {
@@ -17,7 +15,6 @@ public class LongestCommonSubsequence {
                 }
             }
         }
-//        Arrays.stream(dp).map(Arrays::toString).forEach(System.out::println);
         return dp[0][0];
     }
 }
