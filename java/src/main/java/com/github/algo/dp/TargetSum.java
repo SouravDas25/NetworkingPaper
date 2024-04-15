@@ -7,27 +7,33 @@ import java.util.Map;
 
 public class TargetSum {
 
-    private int dfs(int i, int[] nums, int target, Map<Pair<Integer, Integer>, Integer> cache) {
+    record Memo(int i, int target) {
+    }
+
+    Map<Memo, Integer> cache = new HashMap<>();
+    int[] nums;
+
+    private int dfs(int i, int target) {
         if (i >= nums.length) {
             if (target == 0) {
                 return 1;
             }
             return 0;
         }
-        Pair<Integer, Integer> key = Pair.with(i, target);
+        Memo key = new Memo(i, target);
         if (cache.containsKey(key)) {
             return cache.get(key);
         }
         int ways = 0;
-        ways += dfs(i + 1, nums, target - nums[i], cache);
-        ways += dfs(i + 1, nums, target + nums[i], cache);
+        ways += dfs(i + 1, target - nums[i]);
+        ways += dfs(i + 1, target + nums[i]);
         cache.put(key, ways);
         return ways;
     }
 
     public int findTargetSumWays(int[] nums, int target) {
-        Map<Pair<Integer, Integer>, Integer> cache = new HashMap<>();
-        return dfs(0, nums, target, cache);
+        this.nums = nums;
+        return dfs(0, target);
     }
 
 }

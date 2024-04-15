@@ -9,7 +9,7 @@ class TargetSumTest {
     @Test
     void findTargetSumWays() {
         TargetSum targetSum = new TargetSum();
-        int targetSumWays = targetSum.findTargetSumWays(new int[]{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}, 3);
+        int targetSumWays = targetSum.findTargetSumWays(new int[]{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, 3);
         System.out.println(targetSumWays);
     }
 }
