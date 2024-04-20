@@ -12,7 +12,7 @@ class ArrayConverterTest {
     @Test
     void convertToJavaArray() {
         ArrayConverter arrayConverter = new ArrayConverter();
-        String s = arrayConverter.convertToJavaArray("[[25,27],[36,187],[140,186],[378,6],[492,202],[517,89],[579,234],[673,86],[808,53],[954,49]]");
+        String s = arrayConverter.convertToJavaArray("[[2,3],[2,5],[1,8],[20,25]]");
         System.out.println(s);
     }
 }
